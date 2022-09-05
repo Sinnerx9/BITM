@@ -1,0 +1,44 @@
+[CLIENT PACKET] => ID[181], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 0 (0x0)
+					[STAI]:TdfMap = 
+					{
+						("OWChallenge01", 0(0x0)
+						("OWChallenge02", 0(0x0)
+						("OWChallenge03", 0(0x0)
+						("OWChallenge04", 0(0x0)
+						("OWChallenge05", 0(0x0)
+						("OWChallenge06", 0(0x0)
+						("OWChallenge07", 0(0x0)
+						("OWChallenge08", 0(0x0)
+						("OWChallenge09", 0(0x0)
+						("OWChallenge10", 0(0x0)
+						("OWChallenge11", 0(0x0)
+						("OWChallenge12", 0(0x0)
+						("OWChallenge13", 0(0x0)
+						("OWChallenge14", 0(0x0)
+						("OWChallenge15", 0(0x0)
+						("OWChallenge16", 0(0x0)
+						("OWChallenge17", 0(0x0)
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "OWChallengesb4855da3"
+}

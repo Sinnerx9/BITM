@@ -1,0 +1,683 @@
+[SERVER PACKET] => ID[23], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x1000
+{
+	[NLST]:TdfList = 
+	{
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015724188765 (0xEC7DE1245D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "310116"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000437"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_KOENIGSEGG"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723988765 (0xEC7DDE171D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "310116"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000418"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_MOVIEPACK"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723788765 (0xEC7DDB09DD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309995"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000417"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_JAGUAR"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723588765 (0xEC7DD7FC9D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309997"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000415"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_LAMBOPACK"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723388765 (0xEC7DD4EF5D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309996"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000414"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_FERRARI"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723188765 (0xEC7DD1E21D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551870"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYDIGIREV"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722988765 (0xEC7DCED4DD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551869"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYMUSCOM"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722788765 (0xEC7DCBC79D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551868"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYTRAKDAY"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722588765 (0xEC7DC8BA5D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551867"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_RACER"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722388765 (0xEC7DC5AD1D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551866"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYVPMATTE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722188765 (0xEC7DC29FDD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109550835"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_COP"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721988765 (0xEC7DBF929D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000368"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_LOADED_GARAGE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721788765 (0xEC7DBC855D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "312706"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000687"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_COMPLETE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721588765 (0xEC7DB9781D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "312491"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000676"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "ONLINE_ACCESS"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 1 (0x1)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+	}
+}
+[SERVER PACKET] => ID[24], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x1000
+{
+	[NLST]:TdfList = 
+	{
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2021-02-07T18:26Z"
+			[GNAM]:TdfString = "NFS13PC"
+			[ID]:TdfInteger = 1013397888765 (0xEBF3389EFD)
+			[ISCO]:TdfInteger = 1 (0x1)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "305568"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:46851"
+			[STAT]:TdfInteger = 2 (0x2)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "ONLINE_ACCESS"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 1 (0x1)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 1 (0x1)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2016-02-11T19:37Z"
+			[GNAM]:TdfString = "NFS13PC"
+			[ID]:TdfInteger = 1008853188765 (0xEAE456009D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "305568"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:46851"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "ONLINE_ACCESS"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 1 (0x1)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+	}
+}
+[SERVER PACKET] => ID[25], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x1000
+{
+	[NLST]:TdfList = 
+	{
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015724188765 (0xEC7DE1245D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "310116"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000437"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_KOENIGSEGG"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723988765 (0xEC7DDE171D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "310116"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000418"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_MOVIEPACK"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723788765 (0xEC7DDB09DD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309995"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000417"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_JAGUAR"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723588765 (0xEC7DD7FC9D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309997"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000415"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_LAMBOPACK"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723388765 (0xEC7DD4EF5D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309996"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000414"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_FERRARI"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015723188765 (0xEC7DD1E21D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551870"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYDIGIREV"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722988765 (0xEC7DCED4DD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551869"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYMUSCOM"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722788765 (0xEC7DCBC79D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551868"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYTRAKDAY"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722588765 (0xEC7DC8BA5D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551867"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_RACER"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722388765 (0xEC7DC5AD1D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109551866"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_LIVERYVPMATTE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015722188765 (0xEC7DC29FDD)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "OFB-EAST:109550835"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_PROMO_COP"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721988765 (0xEC7DBF929D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "309994"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000368"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_LOADED_GARAGE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721788765 (0xEC7DBC855D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "312706"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000687"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "NFS14_DLC_COMPLETE"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 5 (0x5)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+		{
+			[DEVI]:TdfString = ""
+			[GDAY]:TdfString = "2022-09-04T23:59Z"
+			[GNAM]:TdfString = "NFS14PC"
+			[ID]:TdfInteger = 1015721588765 (0xEC7DB9781D)
+			[ISCO]:TdfInteger = 0 (0x0)
+			[PID]:TdfInteger = 0 (0x0)
+			[PJID]:TdfString = "312491"
+			[PRCA]:TdfInteger = 2 (0x2)
+			[PRID]:TdfString = "Origin.OFR.50.0000676"
+			[STAT]:TdfInteger = 1 (0x1)
+			[STRC]:TdfInteger = 0 (0x0)
+			[TAG]:TdfString = "ONLINE_ACCESS"
+			[TDAY]:TdfString = ""
+			[TYPE]:TdfInteger = 1 (0x1)
+			[UCNT]:TdfInteger = 0 (0x0)
+			[VER]:TdfInteger = 0 (0x0)
+		}
+	}
+}
+[SERVER PACKET] => ID[26], PackComponent::Unknown [0x0802::0x27] TYPE: 0x1000
+{
+	[SPGN]:TdfString = ""
+	[SPGT]:TdfInteger = 0 (0x0)
+	[SPLA]:TdfString = ""
+}
+[SERVER PACKET] => ID[27], PackComponent::Unknown [0x0802::0x2F] TYPE: 0x1000
+{
+	[DSOO]:TdfInteger = 50000 (0xC350)
+	[DSPF]:TdfInteger = 2 (0x2)
+	[LVLI]:TdfList = 
+	{
+		[0] = 1 (0x1)
+		[1] = 2 (0x2)
+		[2] = 3 (0x3)
+		[3] = 4 (0x4)
+		[4] = 5 (0x5)
+		[5] = 6 (0x6)
+		[6] = 7 (0x7)
+		[7] = 8 (0x8)
+		[8] = 9 (0x9)
+		[9] = 10 (0xA)
+		[10] = 11 (0xB)
+		[11] = 12 (0xC)
+		[12] = 13 (0xD)
+		[13] = 14 (0xE)
+		[14] = 15 (0xF)
+		[15] = 16 (0x10)
+		[16] = 17 (0x11)
+		[17] = 18 (0x12)
+		[18] = 19 (0x13)
+		[19] = 20 (0x14)
+		[20] = 21 (0x15)
+		[21] = 22 (0x16)
+		[22] = 23 (0x17)
+		[23] = 24 (0x18)
+		[24] = 25 (0x19)
+		[25] = 26 (0x1A)
+		[26] = 27 (0x1B)
+		[27] = 28 (0x1C)
+		[28] = 29 (0x1D)
+		[29] = 30 (0x1E)
+		[30] = 31 (0x1F)
+		[31] = 32 (0x20)
+		[32] = 33 (0x21)
+		[33] = 34 (0x22)
+		[34] = 35 (0x23)
+		[35] = 36 (0x24)
+		[36] = 37 (0x25)
+		[37] = 38 (0x26)
+		[38] = 39 (0x27)
+		[39] = 40 (0x28)
+		[40] = 41 (0x29)
+		[41] = 42 (0x2A)
+		[42] = 43 (0x2B)
+		[43] = 44 (0x2C)
+		[44] = 45 (0x2D)
+		[45] = 46 (0x2E)
+		[46] = 47 (0x2F)
+		[47] = 48 (0x30)
+		[48] = 49 (0x31)
+		[49] = 50 (0x32)
+	}
+	[LVLS]:TdfList = 
+	{
+		[0] = 0 (0x0)
+		[1] = 100 (0x64)
+		[2] = 207 (0xCF)
+		[3] = 327 (0x147)
+		[4] = 462 (0x1CE)
+		[5] = 610 (0x262)
+		[6] = 772 (0x304)
+		[7] = 948 (0x3B4)
+		[8] = 1139 (0x473)
+		[9] = 1342 (0x53E)
+		[10] = 1560 (0x618)
+		[11] = 1792 (0x700)
+		[12] = 2038 (0x7F6)
+		[13] = 2297 (0x8F9)
+		[14] = 2571 (0xA0B)
+		[15] = 2858 (0xB2A)
+		[16] = 3159 (0xC57)
+		[17] = 3474 (0xD92)
+		[18] = 3803 (0xEDB)
+		[19] = 4146 (0x1032)
+		[20] = 4503 (0x1197)
+		[21] = 4873 (0x1309)
+		[22] = 5258 (0x148A)
+		[23] = 5656 (0x1618)
+		[24] = 6068 (0x17B4)
+		[25] = 6494 (0x195E)
+		[26] = 6935 (0x1B17)
+		[27] = 7388 (0x1CDC)
+		[28] = 7856 (0x1EB0)
+		[29] = 8338 (0x2092)
+		[30] = 8834 (0x2282)
+		[31] = 9343 (0x247F)
+		[32] = 9867 (0x268B)
+		[33] = 10404 (0x28A4)
+		[34] = 10955 (0x2ACB)
+		[35] = 11520 (0x2D00)
+		[36] = 12099 (0x2F43)
+		[37] = 12692 (0x3194)
+		[38] = 13299 (0x33F3)
+		[39] = 13919 (0x365F)
+		[40] = 14554 (0x38DA)
+		[41] = 15202 (0x3B62)
+		[42] = 15864 (0x3DF8)
+		[43] = 16540 (0x409C)
+		[44] = 17231 (0x434F)
+		[45] = 17934 (0x460E)
+		[46] = 18652 (0x48DC)
+		[47] = 19384 (0x4BB8)
+		[48] = 20130 (0x4EA2)
+		[49] = 20889 (0x5199)
+	}
+}
+[SERVER PACKET] => ID[28], GameManagerComponent::advanceGameState [0x0004::0x3] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameManagerComponent::getGameListSnapshot [0x0004::0x64] TYPE: 0x2000
+{
+	[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+	[GSTA]:TdfInteger = 131 (0x83)
+}

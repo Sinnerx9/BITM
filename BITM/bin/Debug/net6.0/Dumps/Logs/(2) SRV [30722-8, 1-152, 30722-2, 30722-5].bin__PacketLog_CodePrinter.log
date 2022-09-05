@@ -1,0 +1,108 @@
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateHardwareFlags [0x7802::0x8] TYPE: 0x2040
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("ALOC", 1701726545),
+	new TdfInteger("BUID", 234139865),
+	new TdfVector3("CGID", 30722, 2, 108086391056956670),
+	new TdfString("DSNM", "Sinnerx9"),
+	new TdfInteger("FRSC", 0),
+	new TdfInteger("FRST", 0),
+	new TdfString("KEY", "0180000006c97489_MnexcwDnqkuZ5LX1plZzZfHXERyeckc497tyDpwuHy"),
+	new TdfInteger("LAST", 1662344622),
+	new TdfInteger("LLOG", 1662345149),
+	new TdfString("MAIL", "sinnerx9.rx@gmail.com"),
+	new TdfInteger("PID", 234139865),
+	new TdfInteger("PLAT", 4),
+	new TdfInteger("UID", 2250788765),
+	new TdfInteger("USTP", 0),
+	new TdfInteger("XREF", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x8, 0, (ushort)Blaze.MessageType.8256, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[2], AuthenticationComponent::originLogin [0x0001::0x98] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("AGUP", 0),
+	new TdfInteger("ANON", 0),
+	new TdfInteger("NTOS", 0),
+	new TdfString("PCTK", "NnQWcHUvUoE4gBscrqJNM28GiyY-3uMTRPn_SL-Ha_EhV85vyJDSOt8lRhRfFqQG-Fn1YJ0BVLk4nWUZpjMuQNrf85jsOf9qG-QIYvWi04yZL54sFm4HUcNADW9o_Kfh"),
+	new TdfStruct("SESS", new List<Tdf>
+	{
+		new TdfInteger("BUID", 234139865),
+		new TdfInteger("FRSC", 0),
+		new TdfInteger("FRST", 0),
+		new TdfString("KEY", "0180000006c97489_MnexcwDnqkuZ5LX1plZzZfHXERyeckc497tyDpwuHy"),
+		new TdfInteger("LLOG", 1662344622),
+		new TdfString("MAIL", "sinnerx9.rx@gmail.com"),
+		new TdfStruct("PDTL", new List<Tdf>
+		{
+			new TdfString("DSNM", "Sinnerx9"),
+			new TdfInteger("LAST", 1662344580),
+			new TdfInteger("PID", 234139865),
+			new TdfInteger("PLAT", 0),
+			new TdfInteger("STAS", 0),
+			new TdfInteger("XREF", 0),
+		}),
+		new TdfInteger("UID", 2250788765),
+	}),
+	new TdfInteger("SPAM", 1),
+	new TdfInteger("UNDR", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x98, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_UNSET, 
+			new Tdf { }
+		),
+		new TdfString("BPS", ""),
+		new TdfString("CTY", "DE"),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfMap("DMAP", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+		{
+			{ 1, 500 },
+			{ 2013396993, 0 },
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 0),
+			new TdfInteger("NATT", 0),
+			new TdfInteger("UBPS", 0),
+		}),
+		new TdfInteger("UATT", 0),
+		new TdfList("ULST", TdfBaseType.TDF_TYPE_BLAZE_OBJECT_ID, new List<object>
+		{
+			new TdfVector3("", 30722, 2, 108086391056956670),
+		}),
+	}),
+	new TdfStruct("USER", new List<Tdf>
+	{
+		new TdfInteger("AID", 2250788765),
+		new TdfInteger("ALOC", 1701726545),
+		new TdfBlob("EXBB", 
+		{
+			
+		}),
+		new TdfInteger("EXID", 0),
+		new TdfInteger("ID", 234139865),
+		new TdfString("NAME", "Sinnerx9"),
+		new TdfInteger("ORIG", 234139865),
+		new TdfInteger("PIDI", 0),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x2, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateExtendedDataAttribute [0x7802::0x5] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("FLGS", 3),
+	new TdfInteger("ID", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x5, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+

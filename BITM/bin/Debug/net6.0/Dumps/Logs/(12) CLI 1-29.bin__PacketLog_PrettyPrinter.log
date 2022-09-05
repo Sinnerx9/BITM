@@ -1,0 +1,75 @@
+[CLIENT PACKET] => ID[23], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+{
+	[BUID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[EGDA]:TdfString = ""
+	[EPSN]:TdfInteger = 1 (0x1)
+	[EPSZ]:TdfInteger = 50 (0x32)
+	[ETAG]:TdfString = ""
+	[ETDA]:TdfString = ""
+	[GNLS]:TdfList = 
+	{
+		[0] = "NFS14PC"
+	}
+	[HAUP]:TdfInteger = 0 (0x0)
+	[PJID]:TdfString = ""
+	[PRID]:TdfString = ""
+	[RECU]:TdfInteger = 0 (0x0)
+	[SGDA]:TdfString = ""
+	[STAT]:TdfInteger = 0 (0x0)
+	[STDA]:TdfString = ""
+	[TYPE]:TdfInteger = 0 (0x0)
+}
+[CLIENT PACKET] => ID[24], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+{
+	[BUID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[EGDA]:TdfString = ""
+	[EPSN]:TdfInteger = 1 (0x1)
+	[EPSZ]:TdfInteger = 50 (0x32)
+	[ETAG]:TdfString = ""
+	[ETDA]:TdfString = ""
+	[GNLS]:TdfList = 
+	{
+		[0] = "NFS13PC"
+	}
+	[HAUP]:TdfInteger = 0 (0x0)
+	[PJID]:TdfString = ""
+	[PRID]:TdfString = ""
+	[RECU]:TdfInteger = 0 (0x0)
+	[SGDA]:TdfString = ""
+	[STAT]:TdfInteger = 0 (0x0)
+	[STDA]:TdfString = ""
+	[TYPE]:TdfInteger = 0 (0x0)
+}
+[CLIENT PACKET] => ID[25], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+{
+	[BUID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[EGDA]:TdfString = ""
+	[EPSN]:TdfInteger = 1 (0x1)
+	[EPSZ]:TdfInteger = 50 (0x32)
+	[ETAG]:TdfString = ""
+	[ETDA]:TdfString = ""
+	[GNLS]:TdfList = 
+	{
+		[0] = "NFS14PC"
+	}
+	[HAUP]:TdfInteger = 0 (0x0)
+	[PJID]:TdfString = ""
+	[PRID]:TdfString = ""
+	[RECU]:TdfInteger = 0 (0x0)
+	[SGDA]:TdfString = ""
+	[STAT]:TdfInteger = 0 (0x0)
+	[STDA]:TdfString = ""
+	[TYPE]:TdfInteger = 0 (0x0)
+}
+[CLIENT PACKET] => ID[26], PackComponent::Unknown [0x0802::0x27] TYPE: 0x0000
+{
+	[BLIS]:TdfInteger = 234139865 (0xDF4B0D9)
+}
+[CLIENT PACKET] => ID[27], PackComponent::Unknown [0x0802::0x2F] TYPE: 0x0000
+{
+}
+[CLIENT PACKET] => ID[28], GameManagerComponent::advanceGameState [0x0004::0x3] TYPE: 0x0000
+{
+	[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+	[GSTA]:TdfInteger = 131 (0x83)
+}

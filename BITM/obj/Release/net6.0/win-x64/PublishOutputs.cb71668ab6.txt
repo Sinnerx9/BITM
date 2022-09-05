@@ -1,0 +1,2 @@
+D:\projects\BITM\BITM\bin\Release\net6.0\publish\win-x64\BITM.pdb
+D:\projects\BITM\BITM\bin\Release\net6.0\publish\win-x64\BITM.exe

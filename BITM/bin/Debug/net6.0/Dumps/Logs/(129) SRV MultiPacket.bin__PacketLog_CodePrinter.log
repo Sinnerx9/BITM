@@ -1,0 +1,6 @@
+[SERVER PACKET] => ID[145], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

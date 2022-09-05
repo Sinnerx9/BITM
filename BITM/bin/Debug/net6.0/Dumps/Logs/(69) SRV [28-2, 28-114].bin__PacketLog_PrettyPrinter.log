@@ -1,0 +1,13 @@
+[SERVER PACKET] => ID[85], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845509765 (0x400000C6D7BE85)
+	[GRID]:TdfInteger = 18014401845509765 (0x400000C6D7BE85)
+}

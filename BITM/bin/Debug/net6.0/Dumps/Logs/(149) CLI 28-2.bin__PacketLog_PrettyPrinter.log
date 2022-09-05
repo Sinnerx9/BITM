@@ -1,0 +1,81 @@
+[CLIENT PACKET] => ID[166], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 0 (0x0)
+					[STAF]:TdfMap = 
+					{
+						("Cop_CurrentShotlistElapsedTime", 0)
+					}
+					[STAI]:TdfMap = 
+					{
+						("Cop_Completed_Objective_1", 0(0x0)
+						("Cop_Completed_Objective_2", 0(0x0)
+						("Cop_Completed_Objective_3", 0(0x0)
+						("Cop_Completed_Objective_4", 0(0x0)
+						("Cop_Completed_Objective_5", 0(0x0)
+						("Cop_CurrentShotlistSet", 0(0x0)
+						("Cop_CurrentShotlistTheme", 0(0x0)
+						("Cop_FirstSlThemeComp_1", 0(0x0)
+						("Cop_FirstSlThemeComp_10", 0(0x0)
+						("Cop_FirstSlThemeComp_11", 0(0x0)
+						("Cop_FirstSlThemeComp_12", 0(0x0)
+						("Cop_FirstSlThemeComp_13", 0(0x0)
+						("Cop_FirstSlThemeComp_14", 0(0x0)
+						("Cop_FirstSlThemeComp_15", 0(0x0)
+						("Cop_FirstSlThemeComp_16", 0(0x0)
+						("Cop_FirstSlThemeComp_17", 0(0x0)
+						("Cop_FirstSlThemeComp_18", 0(0x0)
+						("Cop_FirstSlThemeComp_19", 0(0x0)
+						("Cop_FirstSlThemeComp_2", 0(0x0)
+						("Cop_FirstSlThemeComp_20", 0(0x0)
+						("Cop_FirstSlThemeComp_3", 0(0x0)
+						("Cop_FirstSlThemeComp_4", 0(0x0)
+						("Cop_FirstSlThemeComp_5", 0(0x0)
+						("Cop_FirstSlThemeComp_6", 0(0x0)
+						("Cop_FirstSlThemeComp_7", 0(0x0)
+						("Cop_FirstSlThemeComp_8", 0(0x0)
+						("Cop_FirstSlThemeComp_9", 0(0x0)
+						("Cop_InPostProgression", 0(0x0)
+						("Cop_NeedsThemeSet", 1(0x1)
+						("Cop_SelectedVehicleNoRestrictions", 0(0x0)
+						("Cop_Shotlist_1", 0(0x0)
+						("Cop_Shotlist_10", 0(0x0)
+						("Cop_Shotlist_11", 0(0x0)
+						("Cop_Shotlist_12", 0(0x0)
+						("Cop_Shotlist_13", 0(0x0)
+						("Cop_Shotlist_14", 0(0x0)
+						("Cop_Shotlist_15", 0(0x0)
+						("Cop_Shotlist_16", 0(0x0)
+						("Cop_Shotlist_17", 0(0x0)
+						("Cop_Shotlist_18", 0(0x0)
+						("Cop_Shotlist_19", 0(0x0)
+						("Cop_Shotlist_2", 0(0x0)
+						("Cop_Shotlist_20", 0(0x0)
+						("Cop_Shotlist_3", 0(0x0)
+						("Cop_Shotlist_4", 0(0x0)
+						("Cop_Shotlist_5", 0(0x0)
+						("Cop_Shotlist_6", 0(0x0)
+						("Cop_Shotlist_7", 0(0x0)
+						("Cop_Shotlist_8", 0(0x0)
+						("Cop_Shotlist_9", 0(0x0)
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "CopProgression28c843d4"
+}

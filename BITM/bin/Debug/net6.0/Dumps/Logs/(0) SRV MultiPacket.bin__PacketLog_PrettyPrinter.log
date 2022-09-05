@@ -1,0 +1,100 @@
+[SERVER PACKET] => ID[0], UtilComponent::preAuth [0x0009::0x7] TYPE: 0x1000
+{
+	[ASRC]:TdfString = "308072"
+	[CIDS]:TdfList = 
+	{
+		[0] = 1 (0x1)
+		[1] = 4 (0x4)
+		[2] = 6 (0x6)
+		[3] = 7 (0x7)
+		[4] = 9 (0x9)
+		[5] = 10 (0xA)
+		[6] = 15 (0xF)
+		[7] = 20 (0x14)
+		[8] = 21 (0x15)
+		[9] = 24 (0x18)
+		[10] = 25 (0x19)
+		[11] = 2000 (0x7D0)
+		[12] = 27 (0x1B)
+		[13] = 28 (0x1C)
+		[14] = 30720 (0x7800)
+		[15] = 30722 (0x7802)
+		[16] = 30723 (0x7803)
+		[17] = 30724 (0x7804)
+		[18] = 33 (0x21)
+		[19] = 30726 (0x7806)
+		[20] = 35 (0x23)
+		[21] = 30727 (0x7807)
+		[22] = 30728 (0x7808)
+		[23] = 30729 (0x7809)
+		[24] = 30730 (0x780A)
+		[25] = 63490 (0xF802)
+	}
+	[CONF]:TdfStruct = 
+	{
+		[CONF]:TdfMap = 
+		{
+			("associationListSkipInitialSet", "1")
+			("blazeServerClientId", "NFS14-Rivals-PC-Server")
+			("bytevaultHostname", "bytevault.gameservices.ea.com")
+			("bytevaultPort", "42310")
+			("bytevaultSecure", "true")
+			("capsStringValidationUri", "client-strings.xboxlive.com")
+			("connIdleTimeout", "40s")
+			("defaultRequestTimeout", "20s")
+			("identityDisplayUri", "console2/welcome")
+			("identityRedirectUri", "http://127.0.0.1/success")
+			("nucleusConnect", "https://accounts.ea.com")
+			("nucleusProxy", "https://gateway.ea.com")
+			("pingPeriod", "20s")
+			("userManagerMaxCachedUsers", "0")
+			("voipHeadsetUpdateRate", "1000")
+			("xblTokenUrn", "accounts.ea.com")
+			("xlspConnectionIdleTimeout", "300")
+		}
+	}
+	[ESRC]:TdfString = "308072"
+	[INST]:TdfString = "nfs-rivals-pc"
+	[MINR]:TdfInteger = 0 (0x0)
+	[NASP]:TdfString = "cem_ea_id"
+	[PILD]:TdfString = ""
+	[PLAT]:TdfString = "pc"
+	[QOSS]:TdfStruct = 
+	{
+		[BWPS]:TdfStruct = 
+		{
+			[PSA]:TdfString = "qos-prod-bio-iad-common-common.gos.ea.com"
+			[PSP]:TdfInteger = 17502 (0x445E)
+			[SNA]:TdfString = ""
+		}
+		[LNP]:TdfInteger = 10 (0xA)
+		[LTPS]:TdfMap = 
+		{
+			("bio-iad",  [0]:TdfStruct{
+				[PSA]:TdfString = "qos-prod-bio-iad-common-common.gos.ea.com"
+				[PSP]:TdfInteger = 17502 (0x445E)
+				[SNA]:TdfString = "bio-iad-prod"
+			})
+			("bio-sjc",  [1]:TdfStruct{
+				[PSA]:TdfString = "qos-prod-bio-sjc-common-common.gos.ea.com"
+				[PSP]:TdfInteger = 17502 (0x445E)
+				[SNA]:TdfString = "bio-sjc-prod"
+			})
+			("bio-syd",  [2]:TdfStruct{
+				[PSA]:TdfString = "qos-prod-bio-syd-common-common.gos.ea.com"
+				[PSP]:TdfInteger = 17502 (0x445E)
+				[SNA]:TdfString = "bio-syd-prod"
+			})
+			("ea-ams",  [3]:TdfStruct{
+				[PSA]:TdfString = "qos-prod-bio-dub-common-common.gos.ea.com"
+				[PSP]:TdfInteger = 17502 (0x445E)
+				[SNA]:TdfString = "bio-dub-prod-shared"
+			})
+		}
+		[SVID]:TdfInteger = 1161889797 (0x45410805)
+		[TIME]:TdfInteger = 5000000 (0x4C4B40)
+	}
+	[RSRC]:TdfString = "308072"
+	[SVER]:TdfString = "Blaze 13.3.1.5.3 (CL# 1549524)
+"
+}

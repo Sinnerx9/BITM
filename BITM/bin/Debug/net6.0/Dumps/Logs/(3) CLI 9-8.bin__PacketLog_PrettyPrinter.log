@@ -1,0 +1,4 @@
+[CLIENT PACKET] => ID[3], UtilComponent::postAuth [0x0009::0x8] TYPE: 0x0000
+{
+	[MAC]:TdfString = "00:50:56:c0:00:01"
+}

@@ -1,0 +1,7 @@
+[CLIENT PACKET] => ID[167], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("NAME", "PlayerStats"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x4, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

@@ -1,0 +1,526 @@
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845510206),
+	new TdfInteger("GRID", 18014401845510206),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[164], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845510213),
+	new TdfInteger("GRID", 18014401845510213),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[165], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845510219),
+	new TdfInteger("GRID", 18014401845510219),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[166], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845510224),
+	new TdfInteger("GRID", 18014401845510224),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[167], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("CNAM", "PlayerStats"),
+	new TdfString("DESC", "PlayerStats"),
+	new TdfVector2("ETYP", 30722,1),
+	new TdfString("META", ""),
+	new TdfString("NAME", "PlayerStats"),
+	new TdfList("STAT", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+	{
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CarsFullyUpgradedRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CarsFullyUpgradedRacer"),
+			new TdfString("SDSC", "CarsFullyUpgradedRacer"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CarsPurchasedRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CarsPurchasedRacer"),
+			new TdfString("SDSC", "CarsPurchasedRacer"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CarsUnlockedCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CarsUnlockedCop"),
+			new TdfString("SDSC", "CarsUnlockedCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CommandPostIndex"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CommandPostIndex"),
+			new TdfString("SDSC", "CommandPostIndex"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CommandPostsDiscovered"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CommandPostsDiscovered"),
+			new TdfString("SDSC", "CommandPostsDiscovered"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "CurrentFaction"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "CurrentFaction"),
+			new TdfString("SDSC", "CurrentFaction"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "DistanceDrivenCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "DistanceDrivenCop"),
+			new TdfString("SDSC", "DistanceDrivenCop"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "DistanceDrivenRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "DistanceDrivenRacer"),
+			new TdfString("SDSC", "DistanceDrivenRacer"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "DriftDistance"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "DriftDistance"),
+			new TdfString("SDSC", "DriftDistance"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "EventGoldsCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "EventGoldsCop"),
+			new TdfString("SDSC", "EventGoldsCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "EventGoldsRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "EventGoldsRacer"),
+			new TdfString("SDSC", "EventGoldsRacer"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "EventsEnteredCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "EventsEnteredCop"),
+			new TdfString("SDSC", "EventsEnteredCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "EventsEnteredRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "EventsEnteredRacer"),
+			new TdfString("SDSC", "EventsEnteredRacer"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "HideoutIndex"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "HideoutIndex"),
+			new TdfString("SDSC", "HideoutIndex"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "HideoutsDiscovered"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "HideoutsDiscovered"),
+			new TdfString("SDSC", "HideoutsDiscovered"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "JumpsCompleted"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "JumpsCompleted"),
+			new TdfString("SDSC", "JumpsCompleted"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%s"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "LicensePlateText"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "LicensePlateText"),
+			new TdfString("SDSC", "LicensePlateText"),
+			new TdfInteger("TYPE", 2),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "LongestTimeInAir"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "LongestTimeInAir"),
+			new TdfString("SDSC", "LongestTimeInAir"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "OtherFactionVehicle"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "OtherFactionVehicle"),
+			new TdfString("SDSC", "OtherFactionVehicle"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "PercentCompleteCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "PercentCompleteCop"),
+			new TdfString("SDSC", "PercentCompleteCop"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "PercentCompleteRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "PercentCompleteRacer"),
+			new TdfString("SDSC", "PercentCompleteRacer"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "SelectedVehicle"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "SelectedVehicle"),
+			new TdfString("SDSC", "SelectedVehicle"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "ShotListsCompleteCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "ShotListsCompleteCop"),
+			new TdfString("SDSC", "ShotListsCompleteCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "ShotListsCompleteRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "ShotListsCompleteRacer"),
+			new TdfString("SDSC", "ShotListsCompleteRacer"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "SpeedCamerasTriggered"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "SpeedCamerasTriggered"),
+			new TdfString("SDSC", "SpeedCamerasTriggered"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "SpeedZonesComplete"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "SpeedZonesComplete"),
+			new TdfString("SDSC", "SpeedZonesComplete"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TimeInAir"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TimeInAir"),
+			new TdfString("SDSC", "TimeInAir"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TimePlayedCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TimePlayedCop"),
+			new TdfString("SDSC", "TimePlayedCop"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TimePlayedRacer"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TimePlayedRacer"),
+			new TdfString("SDSC", "TimePlayedRacer"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%f"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TopSpeed"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TopSpeed"),
+			new TdfString("SDSC", "TopSpeed"),
+			new TdfInteger("TYPE", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TotalBustsMade"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TotalBustsMade"),
+			new TdfString("SDSC", "TotalBustsMade"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "TotalFordBustsMade"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "TotalFordBustsMade"),
+			new TdfString("SDSC", "TotalFordBustsMade"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "WeaponUpgradesAndEquippedCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "WeaponUpgradesAndEquippedCop"),
+			new TdfString("SDSC", "WeaponUpgradesAndEquippedCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "PlayerStats"),
+			new TdfString("DFLT", "0"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%d"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "WeaponUpgradesCop"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "WeaponUpgradesCop"),
+			new TdfString("SDSC", "WeaponUpgradesCop"),
+			new TdfInteger("TYPE", 0),
+		}),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x4, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

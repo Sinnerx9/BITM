@@ -1,0 +1,29 @@
+[CLIENT PACKET] => ID[169], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 366834821 (0x15DD7485)
+					[STAS]:TdfMap = 
+					{
+						("LicensesPart1", "UltimateRacer,")
+						("LicensesPart2", "")
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "EntitlementLibrary00596625"
+}

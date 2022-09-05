@@ -1,0 +1,428 @@
+[SERVER PACKET] => ID[4], UserSessionsComponent::updateNetworkInfo [0x7802::0x14] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x14, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUserInformation [0x7802::0x1] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_IPPAIRADDRESS, 
+			new TdfStruct("VALU", new List<Tdf>
+			{
+				new TdfStruct("EXIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 1384191085),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfStruct("INIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 3232261130),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfInteger("MACI", 1821351717),
+			}),
+		),
+		new TdfString("BPS", "ea-ams"),
+		new TdfString("CTY", "DE"),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfMap("DMAP", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+		{
+			{ 1, 500 },
+			{ 2013396993, 0 },
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfList("PSLM", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			175, 239, 361, 105
+		}),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 0),
+			new TdfInteger("NATT", 5),
+			new TdfInteger("UBPS", 0),
+		}),
+		new TdfInteger("UATT", 0),
+		new TdfList("ULST", TdfBaseType.TDF_TYPE_BLAZE_OBJECT_ID, new List<object>
+		{
+			new TdfVector3("", 30722, 2, 108086391056956670),
+		}),
+	}),
+	new TdfInteger("SUBS", 1),
+	new TdfInteger("USID", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x1, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[5], AuthenticationComponent::createWalUserSession [0x0001::0xE6] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BUID", 234139865),
+	new TdfInteger("FRSC", 0),
+	new TdfInteger("FRST", 0),
+	new TdfString("KEY", "0180000006c9748d_0Vy*tc802E$W3D3c5JuXGBJX6mddMXWu7zC9WLDsBw"),
+	new TdfInteger("LLOG", 0),
+	new TdfString("MAIL", "sinnerx9.rx@gmail.com"),
+	new TdfStruct("PDTL", new List<Tdf>
+	{
+		new TdfString("DSNM", "Sinnerx9"),
+		new TdfInteger("LAST", 0),
+		new TdfInteger("PID", 234139865),
+		new TdfInteger("PLAT", 0),
+		new TdfInteger("STAS", 0),
+		new TdfInteger("XREF", 0),
+	}),
+	new TdfInteger("UID", 2250788765),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0xE6, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[6], AuthenticationComponent::getAccount [0x0001::0x1E] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("AMU", 0),
+	new TdfString("ASRC", ""),
+	new TdfString("CO", "IQ"),
+	new TdfString("DOB", "2001-**-**"),
+	new TdfString("DTCR", "2007-01-19T15:49Z"),
+	new TdfInteger("GOPT", 0),
+	new TdfString("LATH", "2022-09-05T2:32Z"),
+	new TdfString("LN", "en"),
+	new TdfString("MAIL", "******@gmail.com"),
+	new TdfString("PML", ""),
+	new TdfInteger("RC", 1),
+	new TdfInteger("STAS", 1),
+	new TdfInteger("STAT", 2),
+	new TdfString("TOSV", "20426_17.20426_17"),
+	new TdfInteger("TPOT", 0),
+	new TdfInteger("UDU", 0),
+	new TdfInteger("UID", 2250788765),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x1E, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[7], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("DATA", "FALSE"),
+	new TdfString("KEY", "SHARE_USAGE"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xA, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[8], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("DATA", "FALSE"),
+	new TdfString("KEY", "FRIEND_REC"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xA, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[9], StatsComponent::getKeyScopesMap [0x0007::0xF] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfMap("KSIT", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRUCT, new Dictionary<object, object>
+	{
+		{ "Collectables",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+		})},
+		{ "DirectedRaces",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 1836155976, 1836155977 },
+				{ 1836155979, 1836155980 },
+				{ 1836155983, 1836155983 },
+				{ 1836156000, 1836156001 },
+				{ 1836156010, 1836156012 },
+				{ 1836156014, 1836156015 },
+				{ 1836156035, 1836156035 },
+				{ 1836156041, 1836156041 },
+				{ 1836156044, 1836156046 },
+				{ 1836156066, 1836156067 },
+				{ 1836156076, 1836156076 },
+				{ 1836156078, 1836156078 },
+			}),
+		})},
+		{ "HotPursuit",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 3261727552, 3261727561 },
+				{ 3261727585, 3261727593 },
+				{ 3261727650, 3261727650 },
+			}),
+		})},
+		{ "HotPursuitRacer",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 3995932304, 3995932305 },
+				{ 3995932314, 3995932319 },
+				{ 3995932408, 3995932415 },
+			}),
+		})},
+		{ "Hunted",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 2757208336, 2757208340 },
+				{ 2757208342, 2757208343 },
+				{ 2757208348, 2757208349 },
+				{ 2757208368, 2757208375 },
+				{ 2757208380, 2757208380 },
+			}),
+		})},
+		{ "Interceptor",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 2786304976, 2786304983 },
+				{ 2786304988, 2786304989 },
+				{ 2786305072, 2786305076 },
+				{ 2786305078, 2786305079 },
+				{ 2786305084, 2786305085 },
+				{ 2786305138, 2786305143 },
+			}),
+		})},
+		{ "JumpSpots",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 1230288451, 1230288451 },
+				{ 3704503616, 3704503625 },
+				{ 3704503648, 3704503657 },
+				{ 3704503680, 3704503687 },
+				{ 3704503690, 3704503691 },
+				{ 3704503712, 3704503714 },
+				{ 3704503717, 3704503718 },
+				{ 3704503722, 3704503723 },
+				{ 3704503744, 3704503745 },
+				{ 3704503748, 3704503751 },
+				{ 3704503776, 3704503780 },
+				{ 3704503782, 3704503783 },
+				{ 3704503788, 3704503789 },
+				{ 3704503808, 3704503815 },
+				{ 3704503823, 3704503823 },
+				{ 3704503840, 3704503845 },
+				{ 3704503847, 3704503847 },
+				{ 3704503854, 3704503855 },
+				{ 3704504106, 3704504111 },
+			}),
+		})},
+		{ "RacerRoadRule",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 1527021088, 1527021089 },
+				{ 1527021091, 1527021091 },
+				{ 1527021120, 1527021127 },
+				{ 1527021132, 1527021133 },
+				{ 1527021184, 1527021191 },
+				{ 1527021198, 1527021198 },
+				{ 1527021216, 1527021216 },
+				{ 1527021218, 1527021220 },
+				{ 1527021222, 1527021223 },
+				{ 1527021228, 1527021229 },
+				{ 1527021280, 1527021287 },
+				{ 1527021294, 1527021295 },
+			}),
+		})},
+		{ "RapidResponse",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 393262464, 393262465 },
+				{ 393262472, 393262472 },
+				{ 393262474, 393262479 },
+				{ 393262496, 393262497 },
+				{ 393262504, 393262511 },
+				{ 393262536, 393262539 },
+				{ 393262542, 393262543 },
+			}),
+		})},
+		{ "SpeedCameras",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 2329405376, 2329405385 },
+				{ 2329405440, 2329405447 },
+				{ 2329405450, 2329405451 },
+				{ 2329405472, 2329405481 },
+				{ 2329405504, 2329405511 },
+				{ 2329405516, 2329405517 },
+				{ 2329405536, 2329405543 },
+				{ 2329405546, 2329405547 },
+				{ 2329405568, 2329405573 },
+				{ 2329405575, 2329405575 },
+				{ 2329405582, 2329405583 },
+				{ 2329405600, 2329405607 },
+				{ 2329405612, 2329405613 },
+				{ 2329405664, 2329405671 },
+				{ 2329405678, 2329405679 },
+				{ 2329405834, 2329405834 },
+				{ 2329405836, 2329405839 },
+			}),
+		})},
+		{ "Speedlist",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 1064703338, 1064703338 },
+				{ 1064703354, 1064703354 },
+				{ 1064704363, 1064704363 },
+				{ 1064704379, 1064704379 },
+				{ 1064709344, 1064709344 },
+				{ 1064709360, 1064709360 },
+				{ 1064710369, 1064710369 },
+				{ 1064710385, 1064710385 },
+				{ 1064711522, 1064711522 },
+				{ 1064711538, 1064711538 },
+				{ 1064712547, 1064712547 },
+				{ 1064712563, 1064712563 },
+				{ 1064713444, 1064713444 },
+				{ 1064713460, 1064713460 },
+				{ 1064714469, 1064714469 },
+				{ 1064714485, 1064714485 },
+				{ 1064715622, 1064715622 },
+				{ 1064715638, 1064715638 },
+				{ 1064716647, 1064716647 },
+				{ 1064716663, 1064716663 },
+				{ 1130499524, 1130499524 },
+				{ 2423091564, 2423091564 },
+				{ 2423091581, 2423091581 },
+				{ 2423091583, 2423091583 },
+				{ 2423092589, 2423092589 },
+				{ 2423092604, 2423092604 },
+				{ 2423092606, 2423092606 },
+				{ 2423097574, 2423097574 },
+				{ 2423097589, 2423097589 },
+				{ 2423097591, 2423097591 },
+				{ 2423098599, 2423098599 },
+				{ 2423098612, 2423098612 },
+				{ 2423098614, 2423098614 },
+				{ 2423099748, 2423099748 },
+				{ 2423099765, 2423099765 },
+				{ 2423099767, 2423099767 },
+				{ 2423100773, 2423100773 },
+				{ 2423100788, 2423100788 },
+				{ 2423100790, 2423100790 },
+				{ 2423101666, 2423101666 },
+				{ 2423101681, 2423101681 },
+				{ 2423101683, 2423101683 },
+				{ 2423102691, 2423102691 },
+				{ 2423102704, 2423102704 },
+				{ 2423102706, 2423102706 },
+				{ 2423103840, 2423103840 },
+				{ 2423103857, 2423103857 },
+				{ 2423103859, 2423103859 },
+				{ 2423104865, 2423104865 },
+				{ 2423104880, 2423104880 },
+				{ 2423104882, 2423104882 },
+				{ 2652804205, 2652804205 },
+				{ 2652804207, 2652804207 },
+				{ 2652804220, 2652804220 },
+				{ 2652805228, 2652805228 },
+				{ 2652805230, 2652805230 },
+				{ 2652805245, 2652805245 },
+				{ 2652810213, 2652810213 },
+				{ 2652810215, 2652810215 },
+				{ 2652810230, 2652810230 },
+				{ 2652811236, 2652811236 },
+				{ 2652811238, 2652811238 },
+				{ 2652811255, 2652811255 },
+				{ 2652812389, 2652812389 },
+				{ 2652812391, 2652812391 },
+				{ 2652812404, 2652812404 },
+				{ 2652813412, 2652813412 },
+				{ 2652813414, 2652813414 },
+				{ 2652813429, 2652813429 },
+				{ 2652814305, 2652814305 },
+				{ 2652814307, 2652814307 },
+				{ 2652814322, 2652814322 },
+				{ 2652815328, 2652815328 },
+				{ 2652815330, 2652815330 },
+				{ 2652815347, 2652815347 },
+				{ 2652816481, 2652816481 },
+				{ 2652816483, 2652816483 },
+				{ 2652816496, 2652816496 },
+				{ 2652817504, 2652817504 },
+				{ 2652817506, 2652817506 },
+				{ 2652817521, 2652817521 },
+				{ 3542729405, 3542729405 },
+				{ 3542730428, 3542730428 },
+				{ 3542733497, 3542733497 },
+				{ 3542734520, 3542734520 },
+				{ 3542735679, 3542735679 },
+				{ 3542736702, 3542736702 },
+				{ 3542739771, 3542739771 },
+				{ 3542740794, 3542740794 },
+				{ 3542747955, 3542747955 },
+				{ 3542748978, 3542748978 },
+				{ 3546319755, 3546319755 },
+				{ 3546319771, 3546319772 },
+				{ 3546322954, 3546322954 },
+				{ 3546322970, 3546322970 },
+				{ 3546322973, 3546322973 },
+				{ 3546327939, 3546327939 },
+				{ 3546327955, 3546327956 },
+				{ 3546328960, 3546328960 },
+				{ 3546328976, 3546328976 },
+				{ 3546328983, 3546328983 },
+				{ 3546331138, 3546331138 },
+				{ 3546331154, 3546331154 },
+				{ 3546331157, 3546331157 },
+				{ 3546332039, 3546332039 },
+				{ 3546332048, 3546332048 },
+				{ 3546332055, 3546332055 },
+				{ 3546333060, 3546333060 },
+				{ 3546333075, 3546333076 },
+				{ 3546334209, 3546334209 },
+				{ 3546334225, 3546334225 },
+				{ 3546334230, 3546334230 },
+				{ 3546335238, 3546335238 },
+				{ 3546335249, 3546335249 },
+				{ 3546335254, 3546335254 },
+				{ 3546338309, 3546338309 },
+				{ 3546338322, 3546338322 },
+				{ 3546338325, 3546338325 },
+				{ 3628996437, 3628996437 },
+			}),
+		})},
+		{ "TimeAttack",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+			new TdfMap("KSVL", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+			{
+				{ 707187392, 707187393 },
+				{ 707187395, 707187398 },
+				{ 707187425, 707187433 },
+			}),
+		})},
+		{ "VehicleStatisticsData",  new TdfStruct("", new List<Tdf> {
+			new TdfInteger("AGKY", 0),
+			new TdfInteger("ENAG", 0),
+		})},
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0xF, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[10], UserSessionsComponent::updateHardwareFlags [0x7802::0x8] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x8, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

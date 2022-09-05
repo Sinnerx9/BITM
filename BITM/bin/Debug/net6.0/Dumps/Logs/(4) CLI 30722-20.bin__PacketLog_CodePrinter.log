@@ -1,0 +1,71 @@
+[CLIENT PACKET] => ID[4], UserSessionsComponent::updateNetworkInfo [0x7802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_IPPAIRADDRESS, 
+		new TdfStruct("VALU", new List<Tdf>
+		{
+			new TdfStruct("EXIP", new List<Tdf>
+			{
+				new TdfInteger("IP", 1384191085),
+				new TdfInteger("MACI", 0),
+				new TdfInteger("PORT", 3659),
+			}),
+			new TdfStruct("INIP", new List<Tdf>
+			{
+				new TdfInteger("IP", 3232261130),
+				new TdfInteger("MACI", 0),
+				new TdfInteger("PORT", 3659),
+			}),
+			new TdfInteger("MACI", 1821351717),
+		}),
+	),
+	new TdfMap("NLMP", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+	{
+		{ "bio-iad", 175 },
+		{ "bio-sjc", 239 },
+		{ "bio-syd", 361 },
+		{ "ea-ams", 105 },
+	}),
+	new TdfStruct("NQOS", new List<Tdf>
+	{
+		new TdfInteger("DBPS", 0),
+		new TdfInteger("NATT", 5),
+		new TdfInteger("UBPS", 0),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[5], AuthenticationComponent::createWalUserSession [0x0001::0xE6] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0xE6, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[6], AuthenticationComponent::getAccount [0x0001::0x1E] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x1E, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[7], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("KEY", "SHARE_USAGE"),
+	new TdfInteger("UID", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xA, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[8], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("KEY", "FRIEND_REC"),
+	new TdfInteger("UID", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xA, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[9], StatsComponent::getKeyScopesMap [0x0007::0xF] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0xF, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

@@ -1,0 +1,8 @@
+[CLIENT PACKET] => ID[2], AuthenticationComponent::originLogin [0x0001::0x98] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("AUTH", "QVQwOjMuMDozLjA6MjQwOkJ2aUZnYU02VzdFOFRkUmRqNU8wenU0enozajQ4eHJCQmI4Ojg4NzY1OnFkZ2Nu"),
+	new TdfInteger("TYPE", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x98, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

@@ -1,0 +1,63 @@
+[CLIENT PACKET] => ID[22], GameManagerComponent::resetDedicatedServer [0x0004::0x19] TYPE: 0x0000
+{
+	[ATTR]:TdfMap = 
+	{
+		("gameMembershipRequirements", "Private")
+	}
+	[BTPL]:TdfVector3 = 30722/2/108086391056956670
+	[GCTR]:TdfString = ""
+	[GENT]:TdfInteger = 0 (0x0)
+	[GMRG]:TdfInteger = 0 (0x0)
+	[GNAM]:TdfString = "Sinnerx9"
+	[GSET]:TdfInteger = 276 (0x114)
+	[GTYP]:TdfString = ""
+	[GURL]:TdfString = ""
+	[HNET]:TdfList = 
+	{
+		{(Starts with 0x02)
+			[EXIP]:TdfStruct = 
+			{
+				[IP]:TdfInteger = 1384191085 (0x5281146D)
+				[MACI]:TdfInteger = 0 (0x0)
+				[PORT]:TdfInteger = 3659 (0xE4B)
+			}
+			[INIP]:TdfStruct = 
+			{
+				[IP]:TdfInteger = 3232261130 (0xC0A8640A)
+				[MACI]:TdfInteger = 0 (0x0)
+				[PORT]:TdfInteger = 3659 (0xE4B)
+			}
+			[MACI]:TdfInteger = 1821351717 (0x6C8F9F25)
+		}
+	}
+	[IGNO]:TdfInteger = 0 (0x0)
+	[NRES]:TdfInteger = 0 (0x0)
+	[NTOP]:TdfInteger = 133 (0x85)
+	[PCAP]:TdfList = 
+	{
+		[0] = 6 (0x6)
+		[1] = 0 (0x0)
+		[2] = 0 (0x0)
+		[3] = 0 (0x0)
+	}
+	[PGID]:TdfString = ""
+	[PGSC]:TdfBlob = 
+	{
+		
+	}
+	[PMAX]:TdfInteger = 0 (0x0)
+	[PRES]:TdfInteger = 2 (0x2)
+	[QCAP]:TdfInteger = 0 (0x0)
+	[RGID]:TdfInteger = 0 (0x0)
+	[RNFO]:TdfStruct = 
+	{
+	}
+	[SLOT]:TdfInteger = 0 (0x0)
+	[TIDS]:TdfList = 
+	{
+		[0] = 65534 (0xFFFE)
+	}
+	[TIDX]:TdfInteger = 0 (0x0)
+	[VOIP]:TdfInteger = 1 (0x1)
+	[VSTR]:TdfString = "591487325"
+}

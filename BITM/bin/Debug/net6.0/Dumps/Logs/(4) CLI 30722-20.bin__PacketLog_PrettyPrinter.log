@@ -1,0 +1,54 @@
+[CLIENT PACKET] => ID[4], UserSessionsComponent::updateNetworkInfo [0x7802::0x14] TYPE: 0x0000
+{
+	[ADDR]:TdfUnion = 
+	(union: 2){
+		[VALU]:TdfStruct = 
+		{
+			[EXIP]:TdfStruct = 
+			{
+				[IP]:TdfInteger = 1384191085 (0x5281146D)
+				[MACI]:TdfInteger = 0 (0x0)
+				[PORT]:TdfInteger = 3659 (0xE4B)
+			}
+			[INIP]:TdfStruct = 
+			{
+				[IP]:TdfInteger = 3232261130 (0xC0A8640A)
+				[MACI]:TdfInteger = 0 (0x0)
+				[PORT]:TdfInteger = 3659 (0xE4B)
+			}
+			[MACI]:TdfInteger = 1821351717 (0x6C8F9F25)
+		}
+	}
+	[NLMP]:TdfMap = 
+	{
+		("bio-iad", 175(0xAF)
+		("bio-sjc", 239(0xEF)
+		("bio-syd", 361(0x169)
+		("ea-ams", 105(0x69)
+	}
+	[NQOS]:TdfStruct = 
+	{
+		[DBPS]:TdfInteger = 0 (0x0)
+		[NATT]:TdfInteger = 5 (0x5)
+		[UBPS]:TdfInteger = 0 (0x0)
+	}
+}
+[CLIENT PACKET] => ID[5], AuthenticationComponent::createWalUserSession [0x0001::0xE6] TYPE: 0x0000
+{
+}
+[CLIENT PACKET] => ID[6], AuthenticationComponent::getAccount [0x0001::0x1E] TYPE: 0x0000
+{
+}
+[CLIENT PACKET] => ID[7], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x0000
+{
+	[KEY]:TdfString = "SHARE_USAGE"
+	[UID]:TdfInteger = 0 (0x0)
+}
+[CLIENT PACKET] => ID[8], UtilComponent::userSettingsLoad [0x0009::0xA] TYPE: 0x0000
+{
+	[KEY]:TdfString = "FRIEND_REC"
+	[UID]:TdfInteger = 0 (0x0)
+}
+[CLIENT PACKET] => ID[9], StatsComponent::getKeyScopesMap [0x0007::0xF] TYPE: 0x0000
+{
+}

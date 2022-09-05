@@ -1,0 +1,54 @@
+[CLIENT PACKET] => ID[81], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 3251323709 (0xC1CB433D)
+					[STAF]:TdfMap = 
+					{
+						("DistanceDriven", 0)
+						("DriftDistance", 0)
+						("LongestAirTime", 0)
+						("TimeDriven", 0)
+						("TimeInAir", 0)
+					}
+					[STAI]:TdfMap = 
+					{
+						("NumberOfEventsCompleted", 0(0x0)
+						("OwnershipLevel", 0(0x0)
+						("PerfMod_Acceleration", 0(0x0)
+						("PerfMod_Control", 0(0x0)
+						("PerfMod_Strength", 0(0x0)
+						("PerfMod_TopSpeed", 0(0x0)
+						("PerfMod_Toughness", 0(0x0)
+						("WeaponIdRight", 0(0x0)
+						("WeaponIdTop", 0(0x0)
+					}
+					[STAS]:TdfMap = 
+					{
+						("CarCustomization", "")
+						("LiveryOwnershipData0", "")
+						("LiveryOwnershipData1", "")
+						("LiveryOwnershipData2", "")
+						("LiveryOwnershipData3", "")
+						("LiveryOwnershipData4", "")
+						("WeaponOwnershipData", "")
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "VehicleStatisticsDataa8075c94"
+}

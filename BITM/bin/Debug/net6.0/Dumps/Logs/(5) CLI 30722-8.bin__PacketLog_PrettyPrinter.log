@@ -1,0 +1,4 @@
+[CLIENT PACKET] => ID[10], UserSessionsComponent::updateHardwareFlags [0x7802::0x8] TYPE: 0x0000
+{
+	[HWFG]:TdfInteger = 0 (0x0)
+}

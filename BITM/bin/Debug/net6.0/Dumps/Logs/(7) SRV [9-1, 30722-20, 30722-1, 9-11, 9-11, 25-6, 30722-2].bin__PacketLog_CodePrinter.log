@@ -1,0 +1,306 @@
+[SERVER PACKET] => ID[11], UtilComponent::fetchClientConfig [0x0009::0x1] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfMap("CONF", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRING, new Dictionary<object, object>
+	{
+		{ "app_qr_code_enabled", "1" },
+		{ "app_qr_code_url", "http://network.needforspeed.com/a" },
+		{ "bootflow_qr_code_enabled", "1" },
+		{ "Collectables_BLOCK", "1" },
+		{ "CopCredits_BLOCK", "0" },
+		{ "CopObjective_BLOCK", "1" },
+		{ "CopProgression_BLOCK", "0" },
+		{ "CopScore_BLOCK", "0" },
+		{ "CopSessionScore_BLOCK", "1" },
+		{ "dimecfg_url", "https://editorial.gos.ea.com/NFS/Rivals/Store/dimecfg.xml" },
+		{ "DrivingStats_BLOCK", "1" },
+		{ "durango_block_GAMETESTTEST", "1" },
+		{ "e3UploadActive", "1" },
+		{ "e3UploadFrequency", "2.0" },
+		{ "EntitlementLibrary_BLOCK", "0" },
+		{ "free_dlc_item_check_enabled", "1" },
+		{ "free_dlc_item_id", "2" },
+		{ "FreeDLCLicense", "FreeDLC1" },
+		{ "HasAutologPicture_MaxSize", "100" },
+		{ "MetaData_BLOCK", "0" },
+		{ "nfsnetwork_qr_code_enabled", "1" },
+		{ "nfsnetwork_qr_code_url", "http://network.needforspeed.com/n" },
+		{ "overwatch_global_enabled", "1" },
+		{ "overwatch_helicopter_against_cop", "1" },
+		{ "overwatch_playlist_on_boot", "1" },
+		{ "overwatch_playlist_on_notification", "1" },
+		{ "overwatch_playlist_show_messages", "1" },
+		{ "overwatch_roadblock_against_cop", "1" },
+		{ "overwatch_timeout_damagecar", "5.0" },
+		{ "overwatch_timeout_helicopter", "5.0" },
+		{ "overwatch_timeout_jammer", "5.0" },
+		{ "overwatch_timeout_refillammo", "5.0" },
+		{ "overwatch_timeout_refillnos", "5.0" },
+		{ "overwatch_timeout_repaircar", "5.0" },
+		{ "overwatch_timeout_roadblock", "5.0" },
+		{ "overwatch_timeout_stealammo", "5.0" },
+		{ "overwatch_timeout_stealnos", "5.0" },
+		{ "overwatch_waypoint_set_enabled", "1" },
+		{ "OverwatchStats_BLOCK", "0" },
+		{ "OWChallenges_BLOCK", "0" },
+		{ "PlayerStats_BLOCK", "0" },
+		{ "profilepic_qr_code_url", "http://network.needforspeed.com/p" },
+		{ "profilepicture_qr_code_enabled", "1" },
+		{ "RacerCredits_BLOCK", "0" },
+		{ "RacerMultiplier_BLOCK", "1" },
+		{ "RacerObjective_BLOCK", "1" },
+		{ "RacerProgression_BLOCK", "0" },
+		{ "RacerSessionScore_BLOCK", "1" },
+		{ "RacerVolatileScore_BLOCK", "1" },
+		{ "RacerXP_BLOCK", "1" },
+		{ "realtime_presence_active", "1" },
+		{ "realtime_presence_client_timeout_seconds", "120" },
+		{ "realtime_presence_num_positions", "5" },
+		{ "realtime_presence_update_interval_ms", "5000" },
+		{ "recommendations_time_out", "900.0" },
+		{ "request_friend_presence_updates_enabled", "1" },
+		{ "request_friend_presence_updates_timeout", "60.0" },
+		{ "SessionStats_BLOCK", "1" },
+		{ "telemetry_block_GAMETESTTEST", "1" },
+		{ "telemetry_isproduction", "0" },
+		{ "test_bool", "1" },
+		{ "test_float", "3.1415" },
+		{ "test_int", "1024" },
+		{ "test_string", "http://ec2-46-137-86-12.eu-west-1.compute.amazonaws.com" },
+		{ "time_to_flush_stats", "240.0" },
+		{ "TutorialStats_BLOCK", "1" },
+		{ "VehicleStatisticsData_BLOCK", "0" },
+		{ "WebPlayerStats_BLOCK", "0" },
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0x1, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[12], UserSessionsComponent::updateNetworkInfo [0x7802::0x14] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x14, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUserInformation [0x7802::0x1] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_IPPAIRADDRESS, 
+			new TdfStruct("VALU", new List<Tdf>
+			{
+				new TdfStruct("EXIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 1384191085),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfStruct("INIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 3232261130),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfInteger("MACI", 1821351717),
+			}),
+		),
+		new TdfString("BPS", "ea-ams"),
+		new TdfString("CTY", "DE"),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfMap("DMAP", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+		{
+			{ 1, 500 },
+			{ 2013396993, 0 },
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfList("PSLM", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			175, 239, 361, 105
+		}),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 96000000),
+			new TdfInteger("NATT", 1),
+			new TdfInteger("UBPS", 96000000),
+		}),
+		new TdfInteger("UATT", 0),
+		new TdfList("ULST", TdfBaseType.TDF_TYPE_BLAZE_OBJECT_ID, new List<object>
+		{
+			new TdfVector3("", 30722, 2, 108086391056956670),
+		}),
+	}),
+	new TdfInteger("SUBS", 1),
+	new TdfInteger("USID", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x1, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[13], UtilComponent::userSettingsSave [0x0009::0xB] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xB, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[14], UtilComponent::userSettingsSave [0x0009::0xB] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0xB, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[15], AssociationListsComponent::getLists [0x0019::0x6] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfList("LMAP", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+	{
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfStruct("INFO", new List<Tdf>
+			{
+				new TdfVector3("BOID", 25, 1, 234139865),
+				new TdfInteger("FLGS", 4),
+				new TdfStruct("LID", new List<Tdf>
+				{
+					new TdfString("LNM", "friendList"),
+					new TdfInteger("TYPE", 1),
+				}),
+				new TdfInteger("LMS", 100),
+				new TdfString("PNAM", ""),
+				new TdfInteger("PRID", 0),
+			}),
+			new TdfList("MEML", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+			{
+				new TdfStruct("", new List<Tdf>
+				{
+					new TdfStruct("LMID", new List<Tdf>
+					{
+						new TdfInteger("BLID", 356908984),
+						new TdfBlob("EXBB", 
+						{
+							
+						}),
+						new TdfInteger("PLAT", 4),
+						new TdfString("PNAM", "Mustafa_Dev007"),
+						new TdfInteger("XREF", 0),
+					}),
+					new TdfInteger("TIME", 1662337307),
+				}),
+			}),
+			new TdfInteger("OFRC", 0),
+			new TdfInteger("TOCT", 1),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfStruct("INFO", new List<Tdf>
+			{
+				new TdfVector3("BOID", 25, 2, 234139865),
+				new TdfInteger("FLGS", 2),
+				new TdfStruct("LID", new List<Tdf>
+				{
+					new TdfString("LNM", "recentPlayerList"),
+					new TdfInteger("TYPE", 2),
+				}),
+				new TdfInteger("LMS", 100),
+				new TdfString("PNAM", ""),
+				new TdfInteger("PRID", 0),
+			}),
+			new TdfInteger("OFRC", 0),
+			new TdfInteger("TOCT", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfStruct("INFO", new List<Tdf>
+			{
+				new TdfVector3("BOID", 25, 3, 234139865),
+				new TdfInteger("FLGS", 2),
+				new TdfStruct("LID", new List<Tdf>
+				{
+					new TdfString("LNM", "persistentMuteList"),
+					new TdfInteger("TYPE", 3),
+				}),
+				new TdfInteger("LMS", 100),
+				new TdfString("PNAM", ""),
+				new TdfInteger("PRID", 0),
+			}),
+			new TdfInteger("OFRC", 0),
+			new TdfInteger("TOCT", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfStruct("INFO", new List<Tdf>
+			{
+				new TdfVector3("BOID", 25, 4, 234139865),
+				new TdfInteger("FLGS", 0),
+				new TdfStruct("LID", new List<Tdf>
+				{
+					new TdfString("LNM", "communicationBlockList"),
+					new TdfInteger("TYPE", 4),
+				}),
+				new TdfInteger("LMS", 100),
+				new TdfString("PNAM", ""),
+				new TdfInteger("PRID", 0),
+			}),
+			new TdfInteger("OFRC", 0),
+			new TdfInteger("TOCT", 0),
+		}),
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfStruct("INFO", new List<Tdf>
+			{
+				new TdfVector3("BOID", 25, 5, 234139865),
+				new TdfInteger("FLGS", 0),
+				new TdfStruct("LID", new List<Tdf>
+				{
+					new TdfString("LNM", "followers"),
+					new TdfInteger("TYPE", 5),
+				}),
+				new TdfInteger("LMS", 100),
+				new TdfString("PNAM", ""),
+				new TdfInteger("PRID", 0),
+			}),
+			new TdfInteger("OFRC", 0),
+			new TdfInteger("TOCT", 0),
+		}),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.FRIENDS, 0x6, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_UNSET, 
+			new Tdf { }
+		),
+		new TdfString("BPS", ""),
+		new TdfString("CTY", ""),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 0),
+			new TdfInteger("NATT", 0),
+			new TdfInteger("UBPS", 0),
+		}),
+		new TdfInteger("UATT", 0),
+	}),
+	new TdfStruct("USER", new List<Tdf>
+	{
+		new TdfInteger("AID", 2323031963),
+		new TdfInteger("ALOC", 1701726545),
+		new TdfBlob("EXBB", 
+		{
+			
+		}),
+		new TdfInteger("EXID", 0),
+		new TdfInteger("ID", 356908984),
+		new TdfString("NAME", "Mustafa_Dev007"),
+		new TdfInteger("ORIG", 356908984),
+		new TdfInteger("PIDI", 0),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x2, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+

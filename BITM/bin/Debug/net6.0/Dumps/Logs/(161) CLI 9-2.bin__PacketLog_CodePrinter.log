@@ -1,0 +1,6 @@
+[CLIENT PACKET] => ID[190], UtilComponent::ping [0x0009::0x2] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0x2, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

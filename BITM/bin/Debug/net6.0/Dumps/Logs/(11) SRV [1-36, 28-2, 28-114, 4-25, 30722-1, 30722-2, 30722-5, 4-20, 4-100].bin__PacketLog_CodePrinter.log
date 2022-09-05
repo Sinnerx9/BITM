@@ -1,0 +1,312 @@
+[SERVER PACKET] => ID[20], AuthenticationComponent::getAuthToken [0x0001::0x24] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("AUTH", "Ciyvab0tregdVsBtboIpeChe4G6uzC1v5_-SIxmvSLIhzq0_KhMQRz2u8KGmAUMJK3_lbVeChY489bIIXj2495D2aKcgcUqrAHhMWfB_J0ZoMGMqzi0AE5O7FFiqFZ0TM2va0GOJxNqFXxdFwru1Nw.."),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x24, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[21], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845509192),
+	new TdfInteger("GRID", 18014401845509192),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[22], GameManagerComponent::resetDedicatedServer [0x0004::0x19] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("GID", 18014398510029368),
+	new TdfInteger("JGS", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEMANAGER, 0x19, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUserInformation [0x7802::0x1] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_IPPAIRADDRESS, 
+			new TdfStruct("VALU", new List<Tdf>
+			{
+				new TdfStruct("EXIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 1384191085),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfStruct("INIP", new List<Tdf>
+				{
+					new TdfInteger("IP", 3232261130),
+					new TdfInteger("MACI", 0),
+					new TdfInteger("PORT", 3659),
+				}),
+				new TdfInteger("MACI", 1821351717),
+			}),
+		),
+		new TdfString("BPS", "ea-ams"),
+		new TdfString("CTY", "DE"),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfMap("DMAP", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+		{
+			{ 1, 500 },
+			{ 2013396993, 0 },
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfList("PSLM", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			175, 239, 361, 105
+		}),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 96000000),
+			new TdfInteger("NATT", 1),
+			new TdfInteger("UBPS", 96000000),
+		}),
+		new TdfInteger("UATT", 0),
+		new TdfList("ULST", TdfBaseType.TDF_TYPE_BLAZE_OBJECT_ID, new List<object>
+		{
+			new TdfVector3("", 30722, 2, 108086391056956670),
+			new TdfVector3("", 4, 1, 18014398510029368),
+		}),
+	}),
+	new TdfInteger("SUBS", 1),
+	new TdfInteger("USID", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x1, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("DATA", new List<Tdf>
+	{
+		new TdfUnion("ADDR", Blaze.NetworkAddressMember.MEMBER_UNSET, 
+			new Tdf { }
+		),
+		new TdfString("BPS", ""),
+		new TdfString("CTY", ""),
+		new TdfIntegerList("CVAR", new List<ulong>
+		{
+		}),
+		new TdfInteger("HWFG", 0),
+		new TdfStruct("QDAT", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 0),
+			new TdfInteger("NATT", 0),
+			new TdfInteger("UBPS", 0),
+		}),
+		new TdfInteger("UATT", 0),
+	}),
+	new TdfStruct("USER", new List<Tdf>
+	{
+		new TdfInteger("AID", 2293593080),
+		new TdfInteger("ALOC", 1701729619),
+		new TdfBlob("EXBB", 
+		{
+			
+		}),
+		new TdfInteger("EXID", 0),
+		new TdfInteger("ID", 254646875),
+		new TdfString("NAME", "dirtybot1"),
+		new TdfInteger("ORIG", 254646875),
+		new TdfInteger("PIDI", 0),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x2, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateExtendedDataAttribute [0x7802::0x5] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("FLGS", 3),
+	new TdfInteger("ID", 254646875),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.USERSESSIONS, 0x5, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameManagerComponent::returnDedicatedServerToPool [0x0004::0x14] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("GAME", new List<Tdf>
+	{
+		new TdfList("ADMN", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			254646875, 234139865
+		}),
+		new TdfMap("ATTR", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRING, new Dictionary<object, object>
+		{
+			{ "gameMembershipRequirements", "Private" },
+		}),
+		new TdfList("CAP", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			6, 0, 0, 0
+		}),
+		new TdfString("COID", ""),
+		new TdfString("ESNM", "prodnfs-rivals-pc_4_1_17496612"),
+		new TdfInteger("GID", 18014398510029368),
+		new TdfInteger("GMRG", 0),
+		new TdfString("GNAM", "Sinnerx9"),
+		new TdfInteger("GPVH", 2788537653),
+		new TdfInteger("GSET", 276),
+		new TdfInteger("GSID", 18014401845427266),
+		new TdfInteger("GSTA", 1),
+		new TdfString("GTYP", ""),
+		new TdfString("GURL", "http://172.17.0.1:10510"),
+		new TdfList("HNET", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+		{
+			new TdfStruct("", new List<Tdf>
+			{
+				new TdfInteger("IP", 2886795265),
+				new TdfInteger("MACI", 0),
+				new TdfInteger("PORT", 7778),
+			, false, false, true}),
+			new TdfStruct("", new List<Tdf>
+			{
+				new TdfInteger("MACI", 2886795265),
+				new TdfInteger("PORT", 7778),
+				new TdfString("SITE", ""),
+				new TdfInteger("SVID", 0),
+			, true}),
+		}),
+		new TdfInteger("HSES", 108086391170757769),
+		new TdfInteger("IGNO", 0),
+		new TdfMap("MATR", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRING, new Dictionary<object, object>
+		{
+			{ "tprt", "10511" },
+			{ "vprt", "7777" },
+		}),
+		new TdfInteger("MCAP", 30),
+		new TdfString("NPSI", ""),
+		new TdfStruct("NQOS", new List<Tdf>
+		{
+			new TdfInteger("DBPS", 96000000),
+			new TdfInteger("NATT", 1),
+			new TdfInteger("UBPS", 96000000),
+		}),
+		new TdfInteger("NRES", 0),
+		new TdfInteger("NTOP", 133),
+		new TdfInteger("OGHI", 254646875),
+		new TdfString("PGID", ""),
+		new TdfBlob("PGSR", 
+		{
+			
+		}),
+		new TdfStruct("PHST", new List<Tdf>
+		{
+			new TdfInteger("CONG", 108086391056956670),
+			new TdfInteger("CSID", 0),
+			new TdfInteger("HPID", 234139865),
+			new TdfInteger("HSLT", 0),
+		}),
+		new TdfInteger("PRES", 2),
+		new TdfString("PSAS", "ea-ams"),
+		new TdfInteger("QCAP", 0),
+		new TdfStruct("RNFO", new List<Tdf>
+		{
+			new TdfMap("CRIT", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRUCT, new Dictionary<object, object>
+			{
+				{ "",  new TdfStruct("", new List<Tdf> {
+					new TdfInteger("RCAP", 6),
+				})},
+			}),
+		}),
+		new TdfString("SCID", ""),
+		new TdfInteger("SEED", 471094140),
+		new TdfString("STMN", ""),
+		new TdfStruct("THST", new List<Tdf>
+		{
+			new TdfInteger("CONG", 108086391056956670),
+			new TdfInteger("CSID", 0),
+			new TdfInteger("HPID", 234139865),
+			new TdfInteger("HSLT", 0),
+		}),
+		new TdfList("TIDS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+		{
+			65534
+		}),
+		new TdfString("UUID", "99b79b7f-1fa8-485d-ac28-cebda1677fbb"),
+		new TdfInteger("VOIP", 1),
+		new TdfString("VSTR", "591487325"),
+		new TdfBlob("XNNC", 
+		{
+			
+		}),
+		new TdfBlob("XSES", 
+		{
+			
+		}),
+	}),
+	new TdfInteger("LFPJ", 0),
+	new TdfList("PROS", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+	{
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfBlob("BLOB", 
+			{
+				
+			}),
+			new TdfInteger("CONG", 108086391056956670),
+			new TdfInteger("CSID", 0),
+			new TdfInteger("EXID", 0),
+			new TdfInteger("GID", 18014398510029368),
+			new TdfInteger("JFPS", 1),
+			new TdfInteger("LOC", 1701726545),
+			new TdfString("NAME", "Sinnerx9"),
+			new TdfInteger("PID", 234139865),
+			new TdfUnion("PNET", Blaze.NetworkAddressMember.MEMBER_IPPAIRADDRESS, 
+				new TdfStruct("VALU", new List<Tdf>
+				{
+					new TdfStruct("EXIP", new List<Tdf>
+					{
+						new TdfInteger("IP", 1384191085),
+						new TdfInteger("MACI", 0),
+						new TdfInteger("PORT", 3659),
+					}),
+					new TdfStruct("INIP", new List<Tdf>
+					{
+						new TdfInteger("IP", 3232261130),
+						new TdfInteger("MACI", 0),
+						new TdfInteger("PORT", 3659),
+					}),
+					new TdfInteger("MACI", 1821351717),
+				}),
+			),
+			new TdfString("ROLE", ""),
+			new TdfInteger("SID", 0),
+			new TdfInteger("SLOT", 0),
+			new TdfInteger("STAT", 4),
+			new TdfInteger("TIDX", 0),
+			new TdfInteger("TIME", 1662345153078689),
+			new TdfVector3("UGID", 0, 0, 0),
+			new TdfInteger("UID", 108086391170757769),
+			new TdfString("UUID", "cc047a91-44c1-4b1a-b8bb-0522b453c820"),
+		}),
+	}),
+	new TdfUnion("REAS", Blaze.NetworkAddressMember.MEMBER_XBOXSERVERADDRESS, 
+		new TdfStruct("VALU", new List<Tdf>
+		{
+			new TdfInteger("ERR", 0),
+		}),
+	),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEMANAGER, 0x14, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameManagerComponent::getGameListSnapshot [0x0004::0x64] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("GID", 18014398510029368),
+	new TdfInteger("GSTA", 130),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEMANAGER, 0x64, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+

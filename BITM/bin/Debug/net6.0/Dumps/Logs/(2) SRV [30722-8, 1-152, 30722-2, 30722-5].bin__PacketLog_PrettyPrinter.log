@@ -1,0 +1,96 @@
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateHardwareFlags [0x7802::0x8] TYPE: 0x2040
+{
+	[ALOC]:TdfInteger = 1701726545 (0x656E4951)
+	[BUID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[CGID]:TdfVector3 = 30722/2/108086391056956670
+	[DSNM]:TdfString = "Sinnerx9"
+	[FRSC]:TdfInteger = 0 (0x0)
+	[FRST]:TdfInteger = 0 (0x0)
+	[KEY]:TdfString = "0180000006c97489_MnexcwDnqkuZ5LX1plZzZfHXERyeckc497tyDpwuHy"
+	[LAST]:TdfInteger = 1662344622 (0x63155DAE)
+	[LLOG]:TdfInteger = 1662345149 (0x63155FBD)
+	[MAIL]:TdfString = "sinnerx9.rx@gmail.com"
+	[PID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[PLAT]:TdfInteger = 4 (0x4)
+	[UID]:TdfInteger = 2250788765 (0x86284F9D)
+	[USTP]:TdfInteger = 0 (0x0)
+	[XREF]:TdfInteger = 0 (0x0)
+}
+[SERVER PACKET] => ID[2], AuthenticationComponent::originLogin [0x0001::0x98] TYPE: 0x1000
+{
+	[AGUP]:TdfInteger = 0 (0x0)
+	[ANON]:TdfInteger = 0 (0x0)
+	[NTOS]:TdfInteger = 0 (0x0)
+	[PCTK]:TdfString = "NnQWcHUvUoE4gBscrqJNM28GiyY-3uMTRPn_SL-Ha_EhV85vyJDSOt8lRhRfFqQG-Fn1YJ0BVLk4nWUZpjMuQNrf85jsOf9qG-QIYvWi04yZL54sFm4HUcNADW9o_Kfh"
+	[SESS]:TdfStruct = 
+	{
+		[BUID]:TdfInteger = 234139865 (0xDF4B0D9)
+		[FRSC]:TdfInteger = 0 (0x0)
+		[FRST]:TdfInteger = 0 (0x0)
+		[KEY]:TdfString = "0180000006c97489_MnexcwDnqkuZ5LX1plZzZfHXERyeckc497tyDpwuHy"
+		[LLOG]:TdfInteger = 1662344622 (0x63155DAE)
+		[MAIL]:TdfString = "sinnerx9.rx@gmail.com"
+		[PDTL]:TdfStruct = 
+		{
+			[DSNM]:TdfString = "Sinnerx9"
+			[LAST]:TdfInteger = 1662344580 (0x63155D84)
+			[PID]:TdfInteger = 234139865 (0xDF4B0D9)
+			[PLAT]:TdfInteger = 0 (0x0)
+			[STAS]:TdfInteger = 0 (0x0)
+			[XREF]:TdfInteger = 0 (0x0)
+		}
+		[UID]:TdfInteger = 2250788765 (0x86284F9D)
+	}
+	[SPAM]:TdfInteger = 1 (0x1)
+	[UNDR]:TdfInteger = 0 (0x0)
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+{
+	[DATA]:TdfStruct = 
+	{
+		[ADDR]:TdfUnion = 
+		(union: 127){
+		}
+		[BPS]:TdfString = ""
+		[CTY]:TdfString = "DE"
+		[CVAR]:TdfIntegerList = 
+		{
+		}
+		[DMAP]:TdfMap = 
+		{
+			(1 (0x1), 500(0x1F4)
+			(2013396993 (0x78020001), 0(0x0)
+		}
+		[HWFG]:TdfInteger = 0 (0x0)
+		[QDAT]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 0 (0x0)
+			[NATT]:TdfInteger = 0 (0x0)
+			[UBPS]:TdfInteger = 0 (0x0)
+		}
+		[UATT]:TdfInteger = 0 (0x0)
+		[ULST]:TdfList = 
+		{
+			[]:TdfVector3 = 30722/2/108086391056956670
+		}
+	}
+	[USER]:TdfStruct = 
+	{
+		[AID]:TdfInteger = 2250788765 (0x86284F9D)
+		[ALOC]:TdfInteger = 1701726545 (0x656E4951)
+		[EXBB]:TdfBlob = 
+		{
+			
+		}
+		[EXID]:TdfInteger = 0 (0x0)
+		[ID]:TdfInteger = 234139865 (0xDF4B0D9)
+		[NAME]:TdfString = "Sinnerx9"
+		[ORIG]:TdfInteger = 234139865 (0xDF4B0D9)
+		[PIDI]:TdfInteger = 0 (0x0)
+	}
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateExtendedDataAttribute [0x7802::0x5] TYPE: 0x2000
+{
+	[FLGS]:TdfInteger = 3 (0x3)
+	[ID]:TdfInteger = 234139865 (0xDF4B0D9)
+}

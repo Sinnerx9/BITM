@@ -1,0 +1,25 @@
+[SERVER PACKET] => ID[19], StatsComponent::getStatsByGroupAsync [0x0007::0x10] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], StatsComponent::GetStatsAsyncNotification [0x0007::0x32] TYPE: 0x2000
+{
+	[GRNM]:TdfString = "MetaData"
+	[KEY]:TdfString = "No_Scope_Defined"
+	[LAST]:TdfInteger = 1 (0x1)
+	[STS]:TdfStruct = 
+	{
+		[STAT]:TdfList = 
+		{
+			{
+				[EID]:TdfInteger = 234139865 (0xDF4B0D9)
+				[ETYP]:TdfVector2 = 30722/1
+				[POFF]:TdfInteger = 0 (0x0)
+				[STAT]:TdfList = 
+				{
+					[0] = "1662344625"
+				}
+			}
+		}
+	}
+	[VID]:TdfInteger = 1 (0x1)
+}

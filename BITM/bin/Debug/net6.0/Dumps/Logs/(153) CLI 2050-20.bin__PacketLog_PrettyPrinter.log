@@ -1,0 +1,155 @@
+[CLIENT PACKET] => ID[170], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 2423099765 (0x906D9175)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[171], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 3704503811 (0xDCCE3E03)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[172], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 3704503810 (0xDCCE3E02)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[173], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 1527021223 (0x5B047EA7)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[174], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 1527021223 (0x5B047EA7)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[175], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 3704503811 (0xDCCE3E03)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[176], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 3704503810 (0xDCCE3E02)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[177], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 1527021223 (0x5B047EA7)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[178], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 1527021223 (0x5B047EA7)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[179], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+{
+	[BLID]:TdfInteger = 234139865 (0xDF4B0D9)
+	[SWIS]:TdfList = 
+	{
+		[0] = 2329405573 (0x8AD7E885)
+	}
+	[USGE]:TdfInteger = 1 (0x1)
+	[USPG]:TdfInteger = 1 (0x1)
+}
+[CLIENT PACKET] => ID[180], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 1100711545 (0x419B8679)
+					[STAF]:TdfMap = 
+					{
+						("DistanceDriven", 10776.269)
+						("DriftDistance", 1030.6342)
+						("LongestAirTime", 1.966666)
+						("TimeDriven", 445.44614)
+						("TimeInAir", 3.933333)
+						("TopSpeed", 73.69824)
+					}
+					[STAI]:TdfMap = 
+					{
+						("NumberOfEventsCompleted", 1(0x1)
+						("OwnershipLevel", 0(0x0)
+						("PerfMod_Acceleration", 0(0x0)
+						("PerfMod_Control", 0(0x0)
+						("PerfMod_Strength", 0(0x0)
+						("PerfMod_TopSpeed", 0(0x0)
+						("PerfMod_Toughness", 0(0x0)
+						("WeaponIdRight", 0(0x0)
+						("WeaponIdTop", 0(0x0)
+					}
+					[STAS]:TdfMap = 
+					{
+						("CarCustomization", "dM4Kia4q1AUQhs0mCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbIL5eCW/afigQAAAAAAQ==")
+						("LiveryOwnershipData0", "FBbLdAJvaKvfAg==")
+						("LiveryOwnershipData1", "")
+						("LiveryOwnershipData2", "")
+						("LiveryOwnershipData3", "")
+						("LiveryOwnershipData4", "")
+						("WeaponOwnershipData", "")
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "VehicleStatisticsData98c9c9f3"
+}

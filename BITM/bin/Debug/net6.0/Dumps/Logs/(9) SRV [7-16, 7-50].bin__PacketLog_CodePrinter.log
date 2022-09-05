@@ -1,0 +1,32 @@
+[SERVER PACKET] => ID[19], StatsComponent::getStatsByGroupAsync [0x0007::0x10] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x10, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], StatsComponent::GetStatsAsyncNotification [0x0007::0x32] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("GRNM", "MetaData"),
+	new TdfString("KEY", "No_Scope_Defined"),
+	new TdfInteger("LAST", 1),
+	new TdfStruct("STS", new List<Tdf>
+	{
+		new TdfList("STAT", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+		{
+			new TdfStruct("", new List<Tdf>
+			{
+				new TdfInteger("EID", 234139865),
+				new TdfVector2("ETYP", 30722,1),
+				new TdfInteger("POFF", 0),
+				new TdfList("STAT", TdfBaseType.TDF_TYPE_STRING, new List<object>
+				{
+					"1662344625"
+				}),
+			}),
+		}),
+	}),
+	new TdfInteger("VID", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x32, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+

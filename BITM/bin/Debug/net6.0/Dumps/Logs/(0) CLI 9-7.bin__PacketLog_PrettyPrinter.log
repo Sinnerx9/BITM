@@ -1,0 +1,26 @@
+[CLIENT PACKET] => ID[0], UtilComponent::preAuth [0x0009::0x7] TYPE: 0x0000
+{
+	[CDAT]:TdfStruct = 
+	{
+		[IITO]:TdfInteger = 0 (0x0)
+		[LANG]:TdfInteger = 1701729619 (0x656E5553)
+		[SVCN]:TdfString = "nfs-rivals-pc"
+		[TYPE]:TdfInteger = 0 (0x0)
+	}
+	[CINF]:TdfStruct = 
+	{
+		[BSDK]:TdfString = "13.3.1.2.1"
+		[BTIM]:TdfString = "Oct 16 2013 00:16:47"
+		[CLNT]:TdfString = "test"
+		[CPFT]:TdfInteger = 4 (0x4)
+		[CSKU]:TdfString = "test"
+		[CVER]:TdfString = "JupiterPC1502285retail-0-591487325"
+		[DSDK]:TdfString = "13.3.1.2.1"
+		[ENV]:TdfString = "prod"
+		[LOC]:TdfInteger = 1701729619 (0x656E5553)
+	}
+	[FCCR]:TdfStruct = 
+	{
+		[CFID]:TdfString = "BlazeSDK"
+	}
+}

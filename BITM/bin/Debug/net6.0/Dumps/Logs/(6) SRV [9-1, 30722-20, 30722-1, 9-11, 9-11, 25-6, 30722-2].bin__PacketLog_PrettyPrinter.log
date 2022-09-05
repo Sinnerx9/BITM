@@ -1,0 +1,283 @@
+[SERVER PACKET] => ID[11], UtilComponent::fetchClientConfig [0x0009::0x1] TYPE: 0x1000
+{
+	[CONF]:TdfMap = 
+	{
+		("app_qr_code_enabled", "1")
+		("app_qr_code_url", "http://network.needforspeed.com/a")
+		("bootflow_qr_code_enabled", "1")
+		("Collectables_BLOCK", "1")
+		("CopCredits_BLOCK", "0")
+		("CopObjective_BLOCK", "1")
+		("CopProgression_BLOCK", "0")
+		("CopScore_BLOCK", "0")
+		("CopSessionScore_BLOCK", "1")
+		("dimecfg_url", "https://editorial.gos.ea.com/NFS/Rivals/Store/dimecfg.xml")
+		("DrivingStats_BLOCK", "1")
+		("durango_block_GAMETESTTEST", "1")
+		("e3UploadActive", "1")
+		("e3UploadFrequency", "2.0")
+		("EntitlementLibrary_BLOCK", "0")
+		("free_dlc_item_check_enabled", "1")
+		("free_dlc_item_id", "2")
+		("FreeDLCLicense", "FreeDLC1")
+		("HasAutologPicture_MaxSize", "100")
+		("MetaData_BLOCK", "0")
+		("nfsnetwork_qr_code_enabled", "1")
+		("nfsnetwork_qr_code_url", "http://network.needforspeed.com/n")
+		("overwatch_global_enabled", "1")
+		("overwatch_helicopter_against_cop", "1")
+		("overwatch_playlist_on_boot", "1")
+		("overwatch_playlist_on_notification", "1")
+		("overwatch_playlist_show_messages", "1")
+		("overwatch_roadblock_against_cop", "1")
+		("overwatch_timeout_damagecar", "5.0")
+		("overwatch_timeout_helicopter", "5.0")
+		("overwatch_timeout_jammer", "5.0")
+		("overwatch_timeout_refillammo", "5.0")
+		("overwatch_timeout_refillnos", "5.0")
+		("overwatch_timeout_repaircar", "5.0")
+		("overwatch_timeout_roadblock", "5.0")
+		("overwatch_timeout_stealammo", "5.0")
+		("overwatch_timeout_stealnos", "5.0")
+		("overwatch_waypoint_set_enabled", "1")
+		("OverwatchStats_BLOCK", "0")
+		("OWChallenges_BLOCK", "0")
+		("PlayerStats_BLOCK", "0")
+		("profilepic_qr_code_url", "http://network.needforspeed.com/p")
+		("profilepicture_qr_code_enabled", "1")
+		("RacerCredits_BLOCK", "0")
+		("RacerMultiplier_BLOCK", "1")
+		("RacerObjective_BLOCK", "1")
+		("RacerProgression_BLOCK", "0")
+		("RacerSessionScore_BLOCK", "1")
+		("RacerVolatileScore_BLOCK", "1")
+		("RacerXP_BLOCK", "1")
+		("realtime_presence_active", "1")
+		("realtime_presence_client_timeout_seconds", "120")
+		("realtime_presence_num_positions", "5")
+		("realtime_presence_update_interval_ms", "5000")
+		("recommendations_time_out", "900.0")
+		("request_friend_presence_updates_enabled", "1")
+		("request_friend_presence_updates_timeout", "60.0")
+		("SessionStats_BLOCK", "1")
+		("telemetry_block_GAMETESTTEST", "1")
+		("telemetry_isproduction", "0")
+		("test_bool", "1")
+		("test_float", "3.1415")
+		("test_int", "1024")
+		("test_string", "http://ec2-46-137-86-12.eu-west-1.compute.amazonaws.com")
+		("time_to_flush_stats", "240.0")
+		("TutorialStats_BLOCK", "1")
+		("VehicleStatisticsData_BLOCK", "0")
+		("WebPlayerStats_BLOCK", "0")
+	}
+}
+[SERVER PACKET] => ID[12], UserSessionsComponent::updateNetworkInfo [0x7802::0x14] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUserInformation [0x7802::0x1] TYPE: 0x2000
+{
+	[DATA]:TdfStruct = 
+	{
+		[ADDR]:TdfUnion = 
+		(union: 2){
+			[VALU]:TdfStruct = 
+			{
+				[EXIP]:TdfStruct = 
+				{
+					[IP]:TdfInteger = 1384191085 (0x5281146D)
+					[MACI]:TdfInteger = 0 (0x0)
+					[PORT]:TdfInteger = 3659 (0xE4B)
+				}
+				[INIP]:TdfStruct = 
+				{
+					[IP]:TdfInteger = 3232261130 (0xC0A8640A)
+					[MACI]:TdfInteger = 0 (0x0)
+					[PORT]:TdfInteger = 3659 (0xE4B)
+				}
+				[MACI]:TdfInteger = 1821351717 (0x6C8F9F25)
+			}
+		}
+		[BPS]:TdfString = "ea-ams"
+		[CTY]:TdfString = "DE"
+		[CVAR]:TdfIntegerList = 
+		{
+		}
+		[DMAP]:TdfMap = 
+		{
+			(1 (0x1), 500(0x1F4)
+			(2013396993 (0x78020001), 0(0x0)
+		}
+		[HWFG]:TdfInteger = 0 (0x0)
+		[PSLM]:TdfList = 
+		{
+			[0] = 175 (0xAF)
+			[1] = 239 (0xEF)
+			[2] = 361 (0x169)
+			[3] = 105 (0x69)
+		}
+		[QDAT]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 96000000 (0x5B8D800)
+			[NATT]:TdfInteger = 1 (0x1)
+			[UBPS]:TdfInteger = 96000000 (0x5B8D800)
+		}
+		[UATT]:TdfInteger = 0 (0x0)
+		[ULST]:TdfList = 
+		{
+			[]:TdfVector3 = 30722/2/108086391056956670
+		}
+	}
+	[SUBS]:TdfInteger = 1 (0x1)
+	[USID]:TdfInteger = 234139865 (0xDF4B0D9)
+}
+[SERVER PACKET] => ID[13], UtilComponent::userSettingsSave [0x0009::0xB] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[14], UtilComponent::userSettingsSave [0x0009::0xB] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[15], AssociationListsComponent::getLists [0x0019::0x6] TYPE: 0x1000
+{
+	[LMAP]:TdfList = 
+	{
+		{
+			[INFO]:TdfStruct = 
+			{
+				[BOID]:TdfVector3 = 25/1/234139865
+				[FLGS]:TdfInteger = 4 (0x4)
+				[LID]:TdfStruct = 
+				{
+					[LNM]:TdfString = "friendList"
+					[TYPE]:TdfInteger = 1 (0x1)
+				}
+				[LMS]:TdfInteger = 100 (0x64)
+				[PNAM]:TdfString = ""
+				[PRID]:TdfInteger = 0 (0x0)
+			}
+			[MEML]:TdfList = 
+			{
+				{
+					[LMID]:TdfStruct = 
+					{
+						[BLID]:TdfInteger = 356908984 (0x1545FFB8)
+						[EXBB]:TdfBlob = 
+						{
+							
+						}
+						[PLAT]:TdfInteger = 4 (0x4)
+						[PNAM]:TdfString = "Mustafa_Dev007"
+						[XREF]:TdfInteger = 0 (0x0)
+					}
+					[TIME]:TdfInteger = 1662337307 (0x6315411B)
+				}
+			}
+			[OFRC]:TdfInteger = 0 (0x0)
+			[TOCT]:TdfInteger = 1 (0x1)
+		}
+		{
+			[INFO]:TdfStruct = 
+			{
+				[BOID]:TdfVector3 = 25/2/234139865
+				[FLGS]:TdfInteger = 2 (0x2)
+				[LID]:TdfStruct = 
+				{
+					[LNM]:TdfString = "recentPlayerList"
+					[TYPE]:TdfInteger = 2 (0x2)
+				}
+				[LMS]:TdfInteger = 100 (0x64)
+				[PNAM]:TdfString = ""
+				[PRID]:TdfInteger = 0 (0x0)
+			}
+			[OFRC]:TdfInteger = 0 (0x0)
+			[TOCT]:TdfInteger = 0 (0x0)
+		}
+		{
+			[INFO]:TdfStruct = 
+			{
+				[BOID]:TdfVector3 = 25/3/234139865
+				[FLGS]:TdfInteger = 2 (0x2)
+				[LID]:TdfStruct = 
+				{
+					[LNM]:TdfString = "persistentMuteList"
+					[TYPE]:TdfInteger = 3 (0x3)
+				}
+				[LMS]:TdfInteger = 100 (0x64)
+				[PNAM]:TdfString = ""
+				[PRID]:TdfInteger = 0 (0x0)
+			}
+			[OFRC]:TdfInteger = 0 (0x0)
+			[TOCT]:TdfInteger = 0 (0x0)
+		}
+		{
+			[INFO]:TdfStruct = 
+			{
+				[BOID]:TdfVector3 = 25/4/234139865
+				[FLGS]:TdfInteger = 0 (0x0)
+				[LID]:TdfStruct = 
+				{
+					[LNM]:TdfString = "communicationBlockList"
+					[TYPE]:TdfInteger = 4 (0x4)
+				}
+				[LMS]:TdfInteger = 100 (0x64)
+				[PNAM]:TdfString = ""
+				[PRID]:TdfInteger = 0 (0x0)
+			}
+			[OFRC]:TdfInteger = 0 (0x0)
+			[TOCT]:TdfInteger = 0 (0x0)
+		}
+		{
+			[INFO]:TdfStruct = 
+			{
+				[BOID]:TdfVector3 = 25/5/234139865
+				[FLGS]:TdfInteger = 0 (0x0)
+				[LID]:TdfStruct = 
+				{
+					[LNM]:TdfString = "followers"
+					[TYPE]:TdfInteger = 5 (0x5)
+				}
+				[LMS]:TdfInteger = 100 (0x64)
+				[PNAM]:TdfString = ""
+				[PRID]:TdfInteger = 0 (0x0)
+			}
+			[OFRC]:TdfInteger = 0 (0x0)
+			[TOCT]:TdfInteger = 0 (0x0)
+		}
+	}
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+{
+	[DATA]:TdfStruct = 
+	{
+		[ADDR]:TdfUnion = 
+		(union: 127){
+		}
+		[BPS]:TdfString = ""
+		[CTY]:TdfString = ""
+		[CVAR]:TdfIntegerList = 
+		{
+		}
+		[HWFG]:TdfInteger = 0 (0x0)
+		[QDAT]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 0 (0x0)
+			[NATT]:TdfInteger = 0 (0x0)
+			[UBPS]:TdfInteger = 0 (0x0)
+		}
+		[UATT]:TdfInteger = 0 (0x0)
+	}
+	[USER]:TdfStruct = 
+	{
+		[AID]:TdfInteger = 2323031963 (0x8A76A79B)
+		[ALOC]:TdfInteger = 1701726545 (0x656E4951)
+		[EXBB]:TdfBlob = 
+		{
+			
+		}
+		[EXID]:TdfInteger = 0 (0x0)
+		[ID]:TdfInteger = 356908984 (0x1545FFB8)
+		[NAME]:TdfString = "Mustafa_Dev007"
+		[ORIG]:TdfInteger = 356908984 (0x1545FFB8)
+		[PIDI]:TdfInteger = 0 (0x0)
+	}
+}

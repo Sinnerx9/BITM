@@ -1,0 +1,17 @@
+D:\projects\BITM\BITM\bin\Release\net6.0\BITM.exe
+D:\projects\BITM\BITM\bin\Release\net6.0\BITM.deps.json
+D:\projects\BITM\BITM\bin\Release\net6.0\BITM.runtimeconfig.json
+D:\projects\BITM\BITM\bin\Release\net6.0\BITM.dll
+D:\projects\BITM\BITM\bin\Release\net6.0\BITM.pdb
+D:\projects\BITM\BITM\bin\Release\net6.0\Newtonsoft.Json.dll
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.csproj.AssemblyReference.cache
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.AssemblyInfoInputs.cache
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.AssemblyInfo.cs
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.csproj.CoreCompileInputs.cache
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.csproj.CopyComplete
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.dll
+D:\projects\BITM\BITM\obj\Release\net6.0\refint\BITM.dll
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.pdb
+D:\projects\BITM\BITM\obj\Release\net6.0\BITM.genruntimeconfig.cache
+D:\projects\BITM\BITM\obj\Release\net6.0\ref\BITM.dll

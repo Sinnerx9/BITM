@@ -1,0 +1,14 @@
+[CLIENT PACKET] => ID[16], PackComponent::Unknown [0x0802::0x26] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x26, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[17], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("NAME", "MetaData"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x4, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

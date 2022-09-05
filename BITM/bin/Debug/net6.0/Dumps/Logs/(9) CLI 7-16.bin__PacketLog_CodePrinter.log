@@ -1,0 +1,18 @@
+[CLIENT PACKET] => ID[19], StatsComponent::getStatsByGroupAsync [0x0007::0x10] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("AGGR", 0),
+	new TdfList("EID", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		234139865
+	}),
+	new TdfString("NAME", "MetaData"),
+	new TdfInteger("PCTR", 1),
+	new TdfInteger("POFF", 0),
+	new TdfInteger("PRID", 0),
+	new TdfInteger("PTYP", 0),
+	new TdfInteger("TIME", 0),
+	new TdfInteger("VID", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x10, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

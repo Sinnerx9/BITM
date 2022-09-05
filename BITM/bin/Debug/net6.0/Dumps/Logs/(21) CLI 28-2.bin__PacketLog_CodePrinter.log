@@ -1,0 +1,58 @@
+[CLIENT PACKET] => ID[37], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("FNSH", 0),
+	new TdfIntegerList("PRVT", new List<ulong>
+	{
+	}),
+	new TdfStruct("RPRT", new List<Tdf>
+	{
+		new TdfIntegerList("GAME", new List<ulong>
+		{
+			4091743785
+		}),
+		new TdfStruct("GAME", new List<Tdf>
+		{
+			new TdfMap("PLYR", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_STRUCT, new Dictionary<object, object>
+			{
+				{ 234139865,  new TdfStruct("", new List<Tdf> {
+					new TdfInteger("ENTI", 2188334625),
+					new TdfMap("STAF", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_FLOAT, new Dictionary<object, object>
+					{
+						{ "DistanceDriven", 0},
+						{ "DriftDistance", 0},
+						{ "LongestAirTime", 0},
+						{ "TimeDriven", 0},
+						{ "TimeInAir", 0},
+					}),
+					new TdfMap("STAI", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+					{
+						{ "NumberOfEventsCompleted", 0 },
+						{ "OwnershipLevel", 0 },
+						{ "PerfMod_Acceleration", 0 },
+						{ "PerfMod_Control", 0 },
+						{ "PerfMod_Strength", 0 },
+						{ "PerfMod_TopSpeed", 0 },
+						{ "PerfMod_Toughness", 0 },
+						{ "WeaponIdRight", 0 },
+						{ "WeaponIdTop", 0 },
+					}),
+					new TdfMap("STAS", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRING, new Dictionary<object, object>
+					{
+						{ "CarCustomization", "" },
+						{ "LiveryOwnershipData0", "" },
+						{ "LiveryOwnershipData1", "" },
+						{ "LiveryOwnershipData2", "" },
+						{ "LiveryOwnershipData3", "" },
+						{ "LiveryOwnershipData4", "" },
+						{ "WeaponOwnershipData", "" },
+					}),
+				})},
+			}),
+		}),
+	}),
+	new TdfInteger("GRID", 0),
+	new TdfString("GTYP", "VehicleStatisticsDataa8075c94"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

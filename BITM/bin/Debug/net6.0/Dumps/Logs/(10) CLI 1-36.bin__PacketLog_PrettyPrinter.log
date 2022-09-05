@@ -1,0 +1,31 @@
+[CLIENT PACKET] => ID[20], AuthenticationComponent::getAuthToken [0x0001::0x24] TYPE: 0x0000
+{
+}
+[CLIENT PACKET] => ID[21], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 0 (0x0)
+					[STAS]:TdfMap = 
+					{
+						("SaveTimestamp", "1662345153")
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "MetaData00000000"
+}

@@ -1,0 +1,243 @@
+[SERVER PACKET] => ID[170], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 2423099765 (0x906D9175)
+		}
+	}
+}
+[SERVER PACKET] => ID[171], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 3704503811 (0xDCCE3E03)
+		}
+	}
+}
+[SERVER PACKET] => ID[172], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 3704503810 (0xDCCE3E02)
+		}
+	}
+}
+[SERVER PACKET] => ID[173], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[ROWS]:TdfList = 
+			{
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 356908984 (0x1545FFB8)
+						[PENA]:TdfString = "Mustafa_Dev007"
+						[URTY]:TdfInteger = 2 (0x2)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 43.2758)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1127632688(0x43364F30)
+					}
+				}
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 234139865 (0xDF4B0D9)
+						[PENA]:TdfString = "Sinnerx9"
+						[URTY]:TdfInteger = 1 (0x1)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 41.2552)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1100711545(0x419B8679)
+					}
+				}
+			}
+			[SWID]:TdfInteger = 1527021223 (0x5B047EA7)
+		}
+	}
+}
+[SERVER PACKET] => ID[174], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[ROWS]:TdfList = 
+			{
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 356908984 (0x1545FFB8)
+						[PENA]:TdfString = "Mustafa_Dev007"
+						[URTY]:TdfInteger = 2 (0x2)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 43.2758)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1127632688(0x43364F30)
+					}
+				}
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 234139865 (0xDF4B0D9)
+						[PENA]:TdfString = "Sinnerx9"
+						[URTY]:TdfInteger = 1 (0x1)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 41.2552)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1100711545(0x419B8679)
+					}
+				}
+			}
+			[SWID]:TdfInteger = 1527021223 (0x5B047EA7)
+		}
+	}
+}
+[SERVER PACKET] => ID[175], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 3704503811 (0xDCCE3E03)
+		}
+	}
+}
+[SERVER PACKET] => ID[176], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 3704503810 (0xDCCE3E02)
+		}
+	}
+}
+[SERVER PACKET] => ID[177], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[ROWS]:TdfList = 
+			{
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 356908984 (0x1545FFB8)
+						[PENA]:TdfString = "Mustafa_Dev007"
+						[URTY]:TdfInteger = 2 (0x2)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 43.2758)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1127632688(0x43364F30)
+					}
+				}
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 234139865 (0xDF4B0D9)
+						[PENA]:TdfString = "Sinnerx9"
+						[URTY]:TdfInteger = 1 (0x1)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 41.2552)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1100711545(0x419B8679)
+					}
+				}
+			}
+			[SWID]:TdfInteger = 1527021223 (0x5B047EA7)
+		}
+	}
+}
+[SERVER PACKET] => ID[178], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[ROWS]:TdfList = 
+			{
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 356908984 (0x1545FFB8)
+						[PENA]:TdfString = "Mustafa_Dev007"
+						[URTY]:TdfInteger = 2 (0x2)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 43.2758)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1127632688(0x43364F30)
+					}
+				}
+				{
+					[BLUS]:TdfStruct = 
+					{
+						[BLIS]:TdfInteger = 234139865 (0xDF4B0D9)
+						[PENA]:TdfString = "Sinnerx9"
+						[URTY]:TdfInteger = 1 (0x1)
+					}
+					[STAF]:TdfMap = 
+					{
+						("AverageSpeed", 41.2552)
+					}
+					[STAI]:TdfMap = 
+					{
+						("vehicleUsed", 1100711545(0x419B8679)
+					}
+				}
+			}
+			[SWID]:TdfInteger = 1527021223 (0x5B047EA7)
+		}
+	}
+}
+[SERVER PACKET] => ID[179], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 2329405573 (0x8AD7E885)
+		}
+	}
+}
+[SERVER PACKET] => ID[180], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845510274 (0x400000C6D7C082)
+	[GRID]:TdfInteger = 18014401845510274 (0x400000C6D7C082)
+}

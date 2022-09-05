@@ -1,0 +1,29 @@
+[CLIENT PACKET] => ID[0], UtilComponent::preAuth [0x0009::0x7] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("CDAT", new List<Tdf>
+	{
+		new TdfInteger("IITO", 0),
+		new TdfInteger("LANG", 1701729619),
+		new TdfString("SVCN", "nfs-rivals-pc"),
+		new TdfInteger("TYPE", 0),
+	}),
+	new TdfStruct("CINF", new List<Tdf>
+	{
+		new TdfString("BSDK", "13.3.1.2.1"),
+		new TdfString("BTIM", "Oct 16 2013 00:16:47"),
+		new TdfString("CLNT", "test"),
+		new TdfInteger("CPFT", 4),
+		new TdfString("CSKU", "test"),
+		new TdfString("CVER", "JupiterPC1502285retail-0-591487325"),
+		new TdfString("DSDK", "13.3.1.2.1"),
+		new TdfString("ENV", "prod"),
+		new TdfInteger("LOC", 1701729619),
+	}),
+	new TdfStruct("FCCR", new List<Tdf>
+	{
+		new TdfString("CFID", "BlazeSDK"),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0x7, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

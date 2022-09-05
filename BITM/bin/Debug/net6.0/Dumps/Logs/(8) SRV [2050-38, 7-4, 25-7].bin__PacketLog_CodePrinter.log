@@ -1,0 +1,43 @@
+[SERVER PACKET] => ID[16], PackComponent::Unknown [0x0802::0x26] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("CIHA", 0),
+	new TdfString("GECI", ""),
+	new TdfString("GECO", ""),
+	new TdfInteger("ISSE", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x26, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[17], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("CNAM", "MetaData"),
+	new TdfString("DESC", "MetaData"),
+	new TdfVector2("ETYP", 30722,1),
+	new TdfString("META", ""),
+	new TdfString("NAME", "MetaData"),
+	new TdfList("STAT", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+	{
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfString("CATG", "MetaData"),
+			new TdfString("DFLT", "0.000000"),
+			new TdfInteger("DRVD", 0),
+			new TdfString("FRMT", "%s"),
+			new TdfString("KIND", ""),
+			new TdfString("LDSC", "SaveTimestamp"),
+			new TdfString("META", ""),
+			new TdfString("NAME", "SaveTimestamp"),
+			new TdfString("SDSC", "SaveTimestamp"),
+			new TdfInteger("TYPE", 2),
+		}),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.STATS, 0x4, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[18], AssociationListsComponent::subscribeToLists [0x0019::0x7] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.FRIENDS, 0x7, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

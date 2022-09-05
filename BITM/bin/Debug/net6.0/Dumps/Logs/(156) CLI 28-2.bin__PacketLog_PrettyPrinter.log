@@ -1,0 +1,43 @@
+[CLIENT PACKET] => ID[183], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+{
+	[FNSH]:TdfInteger = 0 (0x0)
+	[PRVT]:TdfIntegerList = 
+	{
+	}
+	[RPRT]:TdfStruct = 
+	{
+		[GAME]:TdfIntegerList = 
+		{
+			4091743785		}
+		[GAME]:TdfStruct = 
+		{
+			[PLYR]:TdfMap = 
+			{
+				(234139865 (0xDF4B0D9),  [0]:TdfStruct{
+					[ENTI]:TdfInteger = 0 (0x0)
+					[STAF]:TdfMap = 
+					{
+						("HighestMultiplier", 5.95155)
+					}
+					[STAI]:TdfMap = 
+					{
+						("BestBustScore", 2147483648(0x80000000)
+						("CopRank", 1(0x1)
+						("CopTakedowns", 0(0x0)
+						("HighestBustHeat", 2147483648(0x80000000)
+						("HighestHeatLevel", 5(0x5)
+						("RacerRank", 1(0x1)
+						("RacerTakedowns", 0(0x0)
+						("TotalBusts", 0(0x0)
+						("TotalCrashes", 0(0x0)
+						("TotalLockdowns", 0(0x0)
+						("WeaponFires", 0(0x0)
+						("WeaponHits", 0(0x0)
+					}
+				})
+			}
+		}
+	}
+	[GRID]:TdfInteger = 0 (0x0)
+	[GTYP]:TdfString = "WebPlayerStatsc7d870d3"
+}

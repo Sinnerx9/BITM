@@ -1,0 +1,10 @@
+[CLIENT PACKET] => ID[48], UtilComponent::filterForProfanity [0x0009::0x14] TYPE: 0x0000
+{
+	[TLST]:TdfList = 
+	{
+		{
+			[DIRT]:TdfInteger = 2 (0x2)
+			[UTXT]:TdfString = "GHOST"
+		}
+	}
+}

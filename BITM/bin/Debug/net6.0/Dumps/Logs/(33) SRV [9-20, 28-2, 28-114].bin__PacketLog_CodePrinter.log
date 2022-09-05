@@ -1,0 +1,33 @@
+[SERVER PACKET] => ID[48], UtilComponent::filterForProfanity [0x0009::0x14] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfList("TLST", TdfBaseType.TDF_TYPE_STRUCT, new List<object>
+	{
+		new TdfStruct("", new List<Tdf>
+		{
+			new TdfInteger("DIRT", 0),
+			new TdfString("UTXT", "GHOST"),
+		}),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0x14, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[49], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfIntegerList("DATA", new List<ulong>
+	{
+	}),
+	new TdfInteger("EROR", 0),
+	new TdfInteger("FNL", 0),
+	new TdfInteger("GHID", 18014401845509496),
+	new TdfInteger("GRID", 18014401845509496),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x72, 0, (ushort)Blaze.MessageType.NOTIFICATION, packet.MsgNum, Content);
+

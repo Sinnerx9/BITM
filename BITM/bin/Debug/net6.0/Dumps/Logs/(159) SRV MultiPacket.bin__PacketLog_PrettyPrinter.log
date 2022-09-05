@@ -1,0 +1,4 @@
+[SERVER PACKET] => ID[188], AuthenticationComponent::getAuthToken [0x0001::0x24] TYPE: 0x1000
+{
+	[AUTH]:TdfString = "Ciyvab0tregdVsBtboIpeChe4G6uzC1v5_-SIxmvSLLFx47TbhqvFKR0rZDMi6BzRO4O0RizoRRfb8nT0TVAnD1SgTlbCEDUDwoV-viioCA5aBjmpl8hs6IOFTl5KpqAoCAglVuemGD2yoFLOElCmA.."
+}

@@ -1,0 +1,4 @@
+[SERVER PACKET] => ID[1], UtilComponent::ping [0x0009::0x2] TYPE: 0x1000
+{
+	[STIM]:TdfInteger = 1662345148 (0x63155FBC)
+}

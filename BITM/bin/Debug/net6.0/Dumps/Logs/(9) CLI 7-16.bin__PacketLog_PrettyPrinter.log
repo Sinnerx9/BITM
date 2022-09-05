@@ -1,0 +1,15 @@
+[CLIENT PACKET] => ID[19], StatsComponent::getStatsByGroupAsync [0x0007::0x10] TYPE: 0x0000
+{
+	[AGGR]:TdfInteger = 0 (0x0)
+	[EID]:TdfList = 
+	{
+		[0] = 234139865 (0xDF4B0D9)
+	}
+	[NAME]:TdfString = "MetaData"
+	[PCTR]:TdfInteger = 1 (0x1)
+	[POFF]:TdfInteger = 0 (0x0)
+	[PRID]:TdfInteger = 0 (0x0)
+	[PTYP]:TdfInteger = 0 (0x0)
+	[TIME]:TdfInteger = 0 (0x0)
+	[VID]:TdfInteger = 1 (0x1)
+}

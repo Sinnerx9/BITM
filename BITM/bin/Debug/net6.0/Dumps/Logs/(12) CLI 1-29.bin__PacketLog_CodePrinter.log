@@ -1,0 +1,93 @@
+[CLIENT PACKET] => ID[23], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BUID", 234139865),
+	new TdfString("EGDA", ""),
+	new TdfInteger("EPSN", 1),
+	new TdfInteger("EPSZ", 50),
+	new TdfString("ETAG", ""),
+	new TdfString("ETDA", ""),
+	new TdfList("GNLS", TdfBaseType.TDF_TYPE_STRING, new List<object>
+	{
+		"NFS14PC"
+	}),
+	new TdfInteger("HAUP", 0),
+	new TdfString("PJID", ""),
+	new TdfString("PRID", ""),
+	new TdfInteger("RECU", 0),
+	new TdfString("SGDA", ""),
+	new TdfInteger("STAT", 0),
+	new TdfString("STDA", ""),
+	new TdfInteger("TYPE", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x1D, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[24], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BUID", 234139865),
+	new TdfString("EGDA", ""),
+	new TdfInteger("EPSN", 1),
+	new TdfInteger("EPSZ", 50),
+	new TdfString("ETAG", ""),
+	new TdfString("ETDA", ""),
+	new TdfList("GNLS", TdfBaseType.TDF_TYPE_STRING, new List<object>
+	{
+		"NFS13PC"
+	}),
+	new TdfInteger("HAUP", 0),
+	new TdfString("PJID", ""),
+	new TdfString("PRID", ""),
+	new TdfInteger("RECU", 0),
+	new TdfString("SGDA", ""),
+	new TdfInteger("STAT", 0),
+	new TdfString("STDA", ""),
+	new TdfInteger("TYPE", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x1D, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[25], AuthenticationComponent::listUserEntitlements2 [0x0001::0x1D] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BUID", 234139865),
+	new TdfString("EGDA", ""),
+	new TdfInteger("EPSN", 1),
+	new TdfInteger("EPSZ", 50),
+	new TdfString("ETAG", ""),
+	new TdfString("ETDA", ""),
+	new TdfList("GNLS", TdfBaseType.TDF_TYPE_STRING, new List<object>
+	{
+		"NFS14PC"
+	}),
+	new TdfInteger("HAUP", 0),
+	new TdfString("PJID", ""),
+	new TdfString("PRID", ""),
+	new TdfInteger("RECU", 0),
+	new TdfString("SGDA", ""),
+	new TdfInteger("STAT", 0),
+	new TdfString("STDA", ""),
+	new TdfInteger("TYPE", 0),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x1D, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[26], PackComponent::Unknown [0x0802::0x27] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLIS", 234139865),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x27, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[27], PackComponent::Unknown [0x0802::0x2F] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x2F, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[28], GameManagerComponent::advanceGameState [0x0004::0x3] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("GID", 18014398510029368),
+	new TdfInteger("GSTA", 131),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEMANAGER, 0x3, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

@@ -1,0 +1,3 @@
+[SERVER PACKET] => ID[99], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}

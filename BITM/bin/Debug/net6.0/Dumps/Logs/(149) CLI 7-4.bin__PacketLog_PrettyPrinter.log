@@ -1,0 +1,4 @@
+[CLIENT PACKET] => ID[167], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x0000
+{
+	[NAME]:TdfString = "PlayerStats"
+}

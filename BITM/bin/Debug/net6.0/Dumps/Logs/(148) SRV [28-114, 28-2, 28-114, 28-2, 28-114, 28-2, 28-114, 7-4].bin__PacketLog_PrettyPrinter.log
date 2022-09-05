@@ -1,0 +1,468 @@
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845510206 (0x400000C6D7C03E)
+	[GRID]:TdfInteger = 18014401845510206 (0x400000C6D7C03E)
+}
+[SERVER PACKET] => ID[164], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845510213 (0x400000C6D7C045)
+	[GRID]:TdfInteger = 18014401845510213 (0x400000C6D7C045)
+}
+[SERVER PACKET] => ID[165], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845510219 (0x400000C6D7C04B)
+	[GRID]:TdfInteger = 18014401845510219 (0x400000C6D7C04B)
+}
+[SERVER PACKET] => ID[166], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845510224 (0x400000C6D7C050)
+	[GRID]:TdfInteger = 18014401845510224 (0x400000C6D7C050)
+}
+[SERVER PACKET] => ID[167], StatsComponent::getStatGroup [0x0007::0x4] TYPE: 0x1000
+{
+	[CNAM]:TdfString = "PlayerStats"
+	[DESC]:TdfString = "PlayerStats"
+	[ETYP]:TdfVector2 = 30722/1
+	[META]:TdfString = ""
+	[NAME]:TdfString = "PlayerStats"
+	[STAT]:TdfList = 
+	{
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CarsFullyUpgradedRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CarsFullyUpgradedRacer"
+			[SDSC]:TdfString = "CarsFullyUpgradedRacer"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CarsPurchasedRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CarsPurchasedRacer"
+			[SDSC]:TdfString = "CarsPurchasedRacer"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CarsUnlockedCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CarsUnlockedCop"
+			[SDSC]:TdfString = "CarsUnlockedCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CommandPostIndex"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CommandPostIndex"
+			[SDSC]:TdfString = "CommandPostIndex"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CommandPostsDiscovered"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CommandPostsDiscovered"
+			[SDSC]:TdfString = "CommandPostsDiscovered"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "CurrentFaction"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "CurrentFaction"
+			[SDSC]:TdfString = "CurrentFaction"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "DistanceDrivenCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "DistanceDrivenCop"
+			[SDSC]:TdfString = "DistanceDrivenCop"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "DistanceDrivenRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "DistanceDrivenRacer"
+			[SDSC]:TdfString = "DistanceDrivenRacer"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "DriftDistance"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "DriftDistance"
+			[SDSC]:TdfString = "DriftDistance"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "EventGoldsCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "EventGoldsCop"
+			[SDSC]:TdfString = "EventGoldsCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "EventGoldsRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "EventGoldsRacer"
+			[SDSC]:TdfString = "EventGoldsRacer"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "EventsEnteredCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "EventsEnteredCop"
+			[SDSC]:TdfString = "EventsEnteredCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "EventsEnteredRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "EventsEnteredRacer"
+			[SDSC]:TdfString = "EventsEnteredRacer"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "HideoutIndex"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "HideoutIndex"
+			[SDSC]:TdfString = "HideoutIndex"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "HideoutsDiscovered"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "HideoutsDiscovered"
+			[SDSC]:TdfString = "HideoutsDiscovered"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "JumpsCompleted"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "JumpsCompleted"
+			[SDSC]:TdfString = "JumpsCompleted"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%s"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "LicensePlateText"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "LicensePlateText"
+			[SDSC]:TdfString = "LicensePlateText"
+			[TYPE]:TdfInteger = 2 (0x2)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "LongestTimeInAir"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "LongestTimeInAir"
+			[SDSC]:TdfString = "LongestTimeInAir"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "OtherFactionVehicle"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "OtherFactionVehicle"
+			[SDSC]:TdfString = "OtherFactionVehicle"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "PercentCompleteCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "PercentCompleteCop"
+			[SDSC]:TdfString = "PercentCompleteCop"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "PercentCompleteRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "PercentCompleteRacer"
+			[SDSC]:TdfString = "PercentCompleteRacer"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "SelectedVehicle"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "SelectedVehicle"
+			[SDSC]:TdfString = "SelectedVehicle"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "ShotListsCompleteCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "ShotListsCompleteCop"
+			[SDSC]:TdfString = "ShotListsCompleteCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "ShotListsCompleteRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "ShotListsCompleteRacer"
+			[SDSC]:TdfString = "ShotListsCompleteRacer"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "SpeedCamerasTriggered"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "SpeedCamerasTriggered"
+			[SDSC]:TdfString = "SpeedCamerasTriggered"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "SpeedZonesComplete"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "SpeedZonesComplete"
+			[SDSC]:TdfString = "SpeedZonesComplete"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TimeInAir"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TimeInAir"
+			[SDSC]:TdfString = "TimeInAir"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TimePlayedCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TimePlayedCop"
+			[SDSC]:TdfString = "TimePlayedCop"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TimePlayedRacer"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TimePlayedRacer"
+			[SDSC]:TdfString = "TimePlayedRacer"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0.000000"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%f"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TopSpeed"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TopSpeed"
+			[SDSC]:TdfString = "TopSpeed"
+			[TYPE]:TdfInteger = 1 (0x1)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TotalBustsMade"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TotalBustsMade"
+			[SDSC]:TdfString = "TotalBustsMade"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "TotalFordBustsMade"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "TotalFordBustsMade"
+			[SDSC]:TdfString = "TotalFordBustsMade"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "WeaponUpgradesAndEquippedCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "WeaponUpgradesAndEquippedCop"
+			[SDSC]:TdfString = "WeaponUpgradesAndEquippedCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+		{
+			[CATG]:TdfString = "PlayerStats"
+			[DFLT]:TdfString = "0"
+			[DRVD]:TdfInteger = 0 (0x0)
+			[FRMT]:TdfString = "%d"
+			[KIND]:TdfString = ""
+			[LDSC]:TdfString = "WeaponUpgradesCop"
+			[META]:TdfString = ""
+			[NAME]:TdfString = "WeaponUpgradesCop"
+			[SDSC]:TdfString = "WeaponUpgradesCop"
+			[TYPE]:TdfInteger = 0 (0x0)
+		}
+	}
+}

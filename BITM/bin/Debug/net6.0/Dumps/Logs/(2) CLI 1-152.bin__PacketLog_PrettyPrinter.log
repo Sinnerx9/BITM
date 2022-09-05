@@ -1,0 +1,5 @@
+[CLIENT PACKET] => ID[2], AuthenticationComponent::originLogin [0x0001::0x98] TYPE: 0x0000
+{
+	[AUTH]:TdfString = "QVQwOjMuMDozLjA6MjQwOkJ2aUZnYU02VzdFOFRkUmRqNU8wenU0enozajQ4eHJCQmI4Ojg4NzY1OnFkZ2Nu"
+	[TYPE]:TdfInteger = 1 (0x1)
+}

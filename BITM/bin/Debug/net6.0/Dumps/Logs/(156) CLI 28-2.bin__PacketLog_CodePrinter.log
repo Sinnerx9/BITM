@@ -1,0 +1,47 @@
+[CLIENT PACKET] => ID[183], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("FNSH", 0),
+	new TdfIntegerList("PRVT", new List<ulong>
+	{
+	}),
+	new TdfStruct("RPRT", new List<Tdf>
+	{
+		new TdfIntegerList("GAME", new List<ulong>
+		{
+			4091743785
+		}),
+		new TdfStruct("GAME", new List<Tdf>
+		{
+			new TdfMap("PLYR", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_STRUCT, new Dictionary<object, object>
+			{
+				{ 234139865,  new TdfStruct("", new List<Tdf> {
+					new TdfInteger("ENTI", 0),
+					new TdfMap("STAF", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_FLOAT, new Dictionary<object, object>
+					{
+						{ "HighestMultiplier", 5.95155},
+					}),
+					new TdfMap("STAI", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+					{
+						{ "BestBustScore", 2147483648 },
+						{ "CopRank", 1 },
+						{ "CopTakedowns", 0 },
+						{ "HighestBustHeat", 2147483648 },
+						{ "HighestHeatLevel", 5 },
+						{ "RacerRank", 1 },
+						{ "RacerTakedowns", 0 },
+						{ "TotalBusts", 0 },
+						{ "TotalCrashes", 0 },
+						{ "TotalLockdowns", 0 },
+						{ "WeaponFires", 0 },
+						{ "WeaponHits", 0 },
+					}),
+				})},
+			}),
+		}),
+	}),
+	new TdfInteger("GRID", 0),
+	new TdfString("GTYP", "WebPlayerStatsc7d870d3"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

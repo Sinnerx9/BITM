@@ -1,0 +1,45 @@
+[SERVER PACKET] => ID[3], UtilComponent::postAuth [0x0009::0x8] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfStruct("PSS", new List<Tdf>
+	{
+		new TdfString("ADRS", ""),
+		new TdfInteger("AMAX", 0),
+		new TdfInteger("OMAX", 0),
+		new TdfString("PJID", ""),
+		new TdfInteger("PORT", 0),
+		new TdfInteger("RPRT", 0),
+		new TdfInteger("TIID", 0),
+	}),
+	new TdfStruct("TELE", new List<Tdf>
+	{
+		new TdfString("ADRS", "159.153.235.32"),
+		new TdfInteger("ANON", 0),
+		new TdfString("DISA", "AD,AF,AG,AI,AL,AM,AN,AO,AQ,AR,AS,AW,AX,AZ,BA,BB,BD,BF,BH,BI,BJ,BM,BN,BO,BR,BS,BT,BV,BW,BY,BZ,CC,CD,CF,CG,CI,CK,CL,CM,CN,CO,CR,CU,CV,CX,DJ,DM,DO,DZ,EC,EG,EH,ER,ET,FJ,FK,FM,FO,GA,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GS,GT,GU,GW,GY,HM,HN,HT,ID,IL,IM,IN,IO,IQ,IR,IS,JE,JM,JO,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LY,MA,MC,MD,ME,MG,MH,ML,MM,MN,MO,MP,MQ,MR,MS,MU,MV,MW,MY,MZ,NA,NC,NE,NF,NG,NI,NP,NR,NU,OM,PA,PE,PF,PG,PH,PK,PM,PN,PS,PW,PY,QA,RE,RS,RW,SA,SB,SC,SD,SG,SH,SJ,SL,SM,SN,SO,SR,ST,SV,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TT,TV,TZ,UA,UG,UM,UY,UZ,VA,VC,VE,VG,VN,VU,WF,WS,YE,YT,ZM,ZW,ZZ"),
+		new TdfInteger("EDCT", 0),
+		new TdfString("FILT", "-UION/****"),
+		new TdfInteger("LOC", 1701729619),
+		new TdfInteger("MINR", 0),
+		new TdfString("NOOK", "US,CA,MX"),
+		new TdfInteger("PORT", 9988),
+		new TdfInteger("SDLY", 15000),
+		new TdfString("SESS", "++VFjlNs03"),
+		new TdfString("SKEY", "^Åýã÷ ÷¤ÆÉúÐ¯øÎÊæÍÛ²òðåáµàè©ãÆÎ±°ôÀ£Ì¬ÈÀ°àÀÃÌâàËÃÜ±¯Ü×ÅÜ´öÂ±×Ü±¬âØ±£æµâÔÃ¥·Õ¦©"),
+		new TdfInteger("SPCT", 75),
+		new TdfString("STIM", "Default"),
+		new TdfString("SVNM", "telemetry-3-common"),
+	}),
+	new TdfStruct("TICK", new List<Tdf>
+	{
+		new TdfString("ADRS", "10.10.78.150"),
+		new TdfInteger("PORT", 8999),
+		new TdfString("SKEY", "234139865,10.10.78.150:8999,nfs-rivals-pc,10,50,50,50,50,0,0"),
+	}),
+	new TdfStruct("UROP", new List<Tdf>
+	{
+		new TdfInteger("TMOP", 1),
+		new TdfInteger("UID", 234139865),
+	}),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.UTIL, 0x8, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

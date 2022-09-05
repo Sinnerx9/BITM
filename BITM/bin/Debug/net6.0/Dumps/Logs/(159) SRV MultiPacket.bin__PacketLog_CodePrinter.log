@@ -1,0 +1,7 @@
+[SERVER PACKET] => ID[188], AuthenticationComponent::getAuthToken [0x0001::0x24] TYPE: 0x1000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfString("AUTH", "Ciyvab0tregdVsBtboIpeChe4G6uzC1v5_-SIxmvSLLFx47TbhqvFKR0rZDMi6BzRO4O0RizoRRfb8nT0TVAnD1SgTlbCEDUDwoV-viioCA5aBjmpl8hs6IOFTl5KpqAoCAglVuemGD2yoFLOElCmA.."),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.AUTHENTICATION, 0x24, 0, (ushort)Blaze.MessageType.REPLY, packet.MsgNum, Content);
+

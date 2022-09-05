@@ -1,0 +1,26 @@
+[CLIENT PACKET] => ID[186], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		2757208342
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[187], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		2423099765
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+

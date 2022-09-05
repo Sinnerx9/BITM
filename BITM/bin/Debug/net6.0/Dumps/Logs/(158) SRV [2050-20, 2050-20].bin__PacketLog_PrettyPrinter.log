@@ -1,0 +1,18 @@
+[SERVER PACKET] => ID[184], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 2757208342 (0xA457A916)
+		}
+	}
+}
+[SERVER PACKET] => ID[185], PackComponent::Unknown [0x0802::0x14] TYPE: 0x1000
+{
+	[SPWA]:TdfList = 
+	{
+		{
+			[SWID]:TdfInteger = 2423099765 (0x906D9175)
+		}
+	}
+}

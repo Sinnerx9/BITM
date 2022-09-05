@@ -1,0 +1,288 @@
+[SERVER PACKET] => ID[20], AuthenticationComponent::getAuthToken [0x0001::0x24] TYPE: 0x1000
+{
+	[AUTH]:TdfString = "Ciyvab0tregdVsBtboIpeChe4G6uzC1v5_-SIxmvSLIhzq0_KhMQRz2u8KGmAUMJK3_lbVeChY489bIIXj2495D2aKcgcUqrAHhMWfB_J0ZoMGMqzi0AE5O7FFiqFZ0TM2va0GOJxNqFXxdFwru1Nw.."
+}
+[SERVER PACKET] => ID[21], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x1000
+{
+}
+[SERVER PACKET] => ID[0], GameReportingComponent::Unknown [0x001C::0x72] TYPE: 0x2000
+{
+	[DATA]:TdfIntegerList = 
+	{
+	}
+	[EROR]:TdfInteger = 0 (0x0)
+	[FNL]:TdfInteger = 0 (0x0)
+	[GHID]:TdfInteger = 18014401845509192 (0x400000C6D7BC48)
+	[GRID]:TdfInteger = 18014401845509192 (0x400000C6D7BC48)
+}
+[SERVER PACKET] => ID[22], GameManagerComponent::resetDedicatedServer [0x0004::0x19] TYPE: 0x1000
+{
+	[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+	[JGS]:TdfInteger = 0 (0x0)
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUserInformation [0x7802::0x1] TYPE: 0x2000
+{
+	[DATA]:TdfStruct = 
+	{
+		[ADDR]:TdfUnion = 
+		(union: 2){
+			[VALU]:TdfStruct = 
+			{
+				[EXIP]:TdfStruct = 
+				{
+					[IP]:TdfInteger = 1384191085 (0x5281146D)
+					[MACI]:TdfInteger = 0 (0x0)
+					[PORT]:TdfInteger = 3659 (0xE4B)
+				}
+				[INIP]:TdfStruct = 
+				{
+					[IP]:TdfInteger = 3232261130 (0xC0A8640A)
+					[MACI]:TdfInteger = 0 (0x0)
+					[PORT]:TdfInteger = 3659 (0xE4B)
+				}
+				[MACI]:TdfInteger = 1821351717 (0x6C8F9F25)
+			}
+		}
+		[BPS]:TdfString = "ea-ams"
+		[CTY]:TdfString = "DE"
+		[CVAR]:TdfIntegerList = 
+		{
+		}
+		[DMAP]:TdfMap = 
+		{
+			(1 (0x1), 500(0x1F4)
+			(2013396993 (0x78020001), 0(0x0)
+		}
+		[HWFG]:TdfInteger = 0 (0x0)
+		[PSLM]:TdfList = 
+		{
+			[0] = 175 (0xAF)
+			[1] = 239 (0xEF)
+			[2] = 361 (0x169)
+			[3] = 105 (0x69)
+		}
+		[QDAT]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 96000000 (0x5B8D800)
+			[NATT]:TdfInteger = 1 (0x1)
+			[UBPS]:TdfInteger = 96000000 (0x5B8D800)
+		}
+		[UATT]:TdfInteger = 0 (0x0)
+		[ULST]:TdfList = 
+		{
+			[]:TdfVector3 = 30722/2/108086391056956670
+			[]:TdfVector3 = 4/1/18014398510029368
+		}
+	}
+	[SUBS]:TdfInteger = 1 (0x1)
+	[USID]:TdfInteger = 234139865 (0xDF4B0D9)
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::lookupUsersInformation [0x7802::0x2] TYPE: 0x2000
+{
+	[DATA]:TdfStruct = 
+	{
+		[ADDR]:TdfUnion = 
+		(union: 127){
+		}
+		[BPS]:TdfString = ""
+		[CTY]:TdfString = ""
+		[CVAR]:TdfIntegerList = 
+		{
+		}
+		[HWFG]:TdfInteger = 0 (0x0)
+		[QDAT]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 0 (0x0)
+			[NATT]:TdfInteger = 0 (0x0)
+			[UBPS]:TdfInteger = 0 (0x0)
+		}
+		[UATT]:TdfInteger = 0 (0x0)
+	}
+	[USER]:TdfStruct = 
+	{
+		[AID]:TdfInteger = 2293593080 (0x88B573F8)
+		[ALOC]:TdfInteger = 1701729619 (0x656E5553)
+		[EXBB]:TdfBlob = 
+		{
+			
+		}
+		[EXID]:TdfInteger = 0 (0x0)
+		[ID]:TdfInteger = 254646875 (0xF2D9A5B)
+		[NAME]:TdfString = "dirtybot1"
+		[ORIG]:TdfInteger = 254646875 (0xF2D9A5B)
+		[PIDI]:TdfInteger = 0 (0x0)
+	}
+}
+[SERVER PACKET] => ID[0], UserSessionsComponent::updateExtendedDataAttribute [0x7802::0x5] TYPE: 0x2000
+{
+	[FLGS]:TdfInteger = 3 (0x3)
+	[ID]:TdfInteger = 254646875 (0xF2D9A5B)
+}
+[SERVER PACKET] => ID[0], GameManagerComponent::returnDedicatedServerToPool [0x0004::0x14] TYPE: 0x2000
+{
+	[GAME]:TdfStruct = 
+	{
+		[ADMN]:TdfList = 
+		{
+			[0] = 254646875 (0xF2D9A5B)
+			[1] = 234139865 (0xDF4B0D9)
+		}
+		[ATTR]:TdfMap = 
+		{
+			("gameMembershipRequirements", "Private")
+		}
+		[CAP]:TdfList = 
+		{
+			[0] = 6 (0x6)
+			[1] = 0 (0x0)
+			[2] = 0 (0x0)
+			[3] = 0 (0x0)
+		}
+		[COID]:TdfString = ""
+		[ESNM]:TdfString = "prodnfs-rivals-pc_4_1_17496612"
+		[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+		[GMRG]:TdfInteger = 0 (0x0)
+		[GNAM]:TdfString = "Sinnerx9"
+		[GPVH]:TdfInteger = 2788537653 (0xA635B535)
+		[GSET]:TdfInteger = 276 (0x114)
+		[GSID]:TdfInteger = 18014401845427266 (0x400000C6D67C42)
+		[GSTA]:TdfInteger = 1 (0x1)
+		[GTYP]:TdfString = ""
+		[GURL]:TdfString = "http://172.17.0.1:10510"
+		[HNET]:TdfList = 
+		{
+			{(Starts with 0x03)
+				[IP]:TdfInteger = 2886795265 (0xAC110001)
+				[MACI]:TdfInteger = 0 (0x0)
+				[PORT]:TdfInteger = 7778 (0x1E62)
+			}
+			{(Starts with 0x01)
+				[MACI]:TdfInteger = 2886795265 (0xAC110001)
+				[PORT]:TdfInteger = 7778 (0x1E62)
+				[SITE]:TdfString = ""
+				[SVID]:TdfInteger = 0 (0x0)
+			}
+		}
+		[HSES]:TdfInteger = 108086391170757769 (0x180000006C97489)
+		[IGNO]:TdfInteger = 0 (0x0)
+		[MATR]:TdfMap = 
+		{
+			("tprt", "10511")
+			("vprt", "7777")
+		}
+		[MCAP]:TdfInteger = 30 (0x1E)
+		[NPSI]:TdfString = ""
+		[NQOS]:TdfStruct = 
+		{
+			[DBPS]:TdfInteger = 96000000 (0x5B8D800)
+			[NATT]:TdfInteger = 1 (0x1)
+			[UBPS]:TdfInteger = 96000000 (0x5B8D800)
+		}
+		[NRES]:TdfInteger = 0 (0x0)
+		[NTOP]:TdfInteger = 133 (0x85)
+		[OGHI]:TdfInteger = 254646875 (0xF2D9A5B)
+		[PGID]:TdfString = ""
+		[PGSR]:TdfBlob = 
+		{
+			
+		}
+		[PHST]:TdfStruct = 
+		{
+			[CONG]:TdfInteger = 108086391056956670 (0x18000000000FCFE)
+			[CSID]:TdfInteger = 0 (0x0)
+			[HPID]:TdfInteger = 234139865 (0xDF4B0D9)
+			[HSLT]:TdfInteger = 0 (0x0)
+		}
+		[PRES]:TdfInteger = 2 (0x2)
+		[PSAS]:TdfString = "ea-ams"
+		[QCAP]:TdfInteger = 0 (0x0)
+		[RNFO]:TdfStruct = 
+		{
+			[CRIT]:TdfMap = 
+			{
+				("",  [0]:TdfStruct{
+					[RCAP]:TdfInteger = 6 (0x6)
+				})
+			}
+		}
+		[SCID]:TdfString = ""
+		[SEED]:TdfInteger = 471094140 (0x1C14537C)
+		[STMN]:TdfString = ""
+		[THST]:TdfStruct = 
+		{
+			[CONG]:TdfInteger = 108086391056956670 (0x18000000000FCFE)
+			[CSID]:TdfInteger = 0 (0x0)
+			[HPID]:TdfInteger = 234139865 (0xDF4B0D9)
+			[HSLT]:TdfInteger = 0 (0x0)
+		}
+		[TIDS]:TdfList = 
+		{
+			[0] = 65534 (0xFFFE)
+		}
+		[UUID]:TdfString = "99b79b7f-1fa8-485d-ac28-cebda1677fbb"
+		[VOIP]:TdfInteger = 1 (0x1)
+		[VSTR]:TdfString = "591487325"
+		[XNNC]:TdfBlob = 
+		{
+			
+		}
+		[XSES]:TdfBlob = 
+		{
+			
+		}
+	}
+	[LFPJ]:TdfInteger = 0 (0x0)
+	[PROS]:TdfList = 
+	{
+		{
+			[BLOB]:TdfBlob = 
+			{
+				
+			}
+			[CONG]:TdfInteger = 108086391056956670 (0x18000000000FCFE)
+			[CSID]:TdfInteger = 0 (0x0)
+			[EXID]:TdfInteger = 0 (0x0)
+			[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+			[JFPS]:TdfInteger = 1 (0x1)
+			[LOC]:TdfInteger = 1701726545 (0x656E4951)
+			[NAME]:TdfString = "Sinnerx9"
+			[PID]:TdfInteger = 234139865 (0xDF4B0D9)
+			[PNET]:TdfUnion = 
+			(union: 2){
+				[VALU]:TdfStruct = 
+				{
+					[EXIP]:TdfStruct = 
+					{
+						[IP]:TdfInteger = 1384191085 (0x5281146D)
+						[MACI]:TdfInteger = 0 (0x0)
+						[PORT]:TdfInteger = 3659 (0xE4B)
+					}
+					[INIP]:TdfStruct = 
+					{
+						[IP]:TdfInteger = 3232261130 (0xC0A8640A)
+						[MACI]:TdfInteger = 0 (0x0)
+						[PORT]:TdfInteger = 3659 (0xE4B)
+					}
+					[MACI]:TdfInteger = 1821351717 (0x6C8F9F25)
+				}
+			}
+			[ROLE]:TdfString = ""
+			[SID]:TdfInteger = 0 (0x0)
+			[SLOT]:TdfInteger = 0 (0x0)
+			[STAT]:TdfInteger = 4 (0x4)
+			[TIDX]:TdfInteger = 0 (0x0)
+			[TIME]:TdfInteger = 1662345153078689 (0x5E7E4E457E5A1)
+			[UGID]:TdfVector3 = 0/0/0
+			[UID]:TdfInteger = 108086391170757769 (0x180000006C97489)
+			[UUID]:TdfString = "cc047a91-44c1-4b1a-b8bb-0522b453c820"
+		}
+	}
+	[REAS]:TdfUnion = 
+	{
+	}
+}
+[SERVER PACKET] => ID[0], GameManagerComponent::getGameListSnapshot [0x0004::0x64] TYPE: 0x2000
+{
+	[GID]:TdfInteger = 18014398510029368 (0x40000000085A38)
+	[GSTA]:TdfInteger = 130 (0x82)
+}

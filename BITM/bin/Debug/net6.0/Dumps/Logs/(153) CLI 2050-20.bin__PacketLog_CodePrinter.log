@@ -1,0 +1,189 @@
+[CLIENT PACKET] => ID[170], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		2423099765
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[171], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		3704503811
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[172], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		3704503810
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[173], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		1527021223
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[174], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		1527021223
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[175], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		3704503811
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[176], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		3704503810
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[177], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		1527021223
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[178], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		1527021223
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[179], PackComponent::Unknown [0x0802::0x14] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("BLID", 234139865),
+	new TdfList("SWIS", TdfBaseType.TDF_TYPE_INTEGER, new List<object>
+	{
+		2329405573
+	}),
+	new TdfInteger("USGE", 1),
+	new TdfInteger("USPG", 1),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.PACKS, 0x14, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
+[CLIENT PACKET] => ID[180], GameReportingComponent::submitOfflineGameReport [0x001C::0x2] TYPE: 0x0000
+List<Tdf> Content = new List<Tdf>
+{
+	new TdfInteger("FNSH", 0),
+	new TdfIntegerList("PRVT", new List<ulong>
+	{
+	}),
+	new TdfStruct("RPRT", new List<Tdf>
+	{
+		new TdfIntegerList("GAME", new List<ulong>
+		{
+			4091743785
+		}),
+		new TdfStruct("GAME", new List<Tdf>
+		{
+			new TdfMap("PLYR", TdfBaseType.TDF_TYPE_INTEGER, TdfBaseType.TDF_TYPE_STRUCT, new Dictionary<object, object>
+			{
+				{ 234139865,  new TdfStruct("", new List<Tdf> {
+					new TdfInteger("ENTI", 1100711545),
+					new TdfMap("STAF", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_FLOAT, new Dictionary<object, object>
+					{
+						{ "DistanceDriven", 10776.269},
+						{ "DriftDistance", 1030.6342},
+						{ "LongestAirTime", 1.966666},
+						{ "TimeDriven", 445.44614},
+						{ "TimeInAir", 3.933333},
+						{ "TopSpeed", 73.69824},
+					}),
+					new TdfMap("STAI", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_INTEGER, new Dictionary<object, object>
+					{
+						{ "NumberOfEventsCompleted", 1 },
+						{ "OwnershipLevel", 0 },
+						{ "PerfMod_Acceleration", 0 },
+						{ "PerfMod_Control", 0 },
+						{ "PerfMod_Strength", 0 },
+						{ "PerfMod_TopSpeed", 0 },
+						{ "PerfMod_Toughness", 0 },
+						{ "WeaponIdRight", 0 },
+						{ "WeaponIdTop", 0 },
+					}),
+					new TdfMap("STAS", TdfBaseType.TDF_TYPE_STRING, TdfBaseType.TDF_TYPE_STRING, new Dictionary<object, object>
+					{
+						{ "CarCustomization", "dM4Kia4q1AUQhs0mCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbIL5eCW/afigQAAAAAAQ==" },
+						{ "LiveryOwnershipData0", "FBbLdAJvaKvfAg==" },
+						{ "LiveryOwnershipData1", "" },
+						{ "LiveryOwnershipData2", "" },
+						{ "LiveryOwnershipData3", "" },
+						{ "LiveryOwnershipData4", "" },
+						{ "WeaponOwnershipData", "" },
+					}),
+				})},
+			}),
+		}),
+	}),
+	new TdfInteger("GRID", 0),
+	new TdfString("GTYP", "VehicleStatisticsData98c9c9f3"),
+};
+byte[] buff = Blaze.CreatePacket((ushort)Blaze.Component.GAMEREPORTING, 0x2, 0, (ushort)Blaze.MessageType.MESSAGE, packet.MsgNum, Content);
+
